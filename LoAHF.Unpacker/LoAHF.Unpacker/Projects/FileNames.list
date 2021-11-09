@@ -1,3 +1,4 @@
+binary_table_files_align8_32bit.tab
 data/effect/effectmodel/entity_pu/baoxiang_guangzhu01.mesh
 data/effect/effectmodel/entity_pu/bingdong_01.mesh
 data/effect/effectmodel/entity_pu/binglong_guangquan01.mesh
@@ -12536,6 +12537,8 @@ default.idleupdate.pcfg
 engine_settings.xml
 game.dll
 global.jstr
+i18n/en-us/binary_table_files_align8_32bit.tab
+i18n/en-us/scripts/client_script_list.txt
 i18n/en-us/ui/cursor/default.ani
 i18n/en-us/ui/cursor/hyperlink.ani
 i18n/en-us/ui/cursor/mouseopenbox.cur
@@ -14480,6 +14483,7 @@ mobile_maps/mqts_dl_002/1_1_-2.scene
 mobile_maps/mqts_dl_002/1_1_-3.scene
 mobile_maps/mqts_dl_002/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_dl_002/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_dl_002/mqts_dl_002.map
 mobile_maps/mqts_dl_002/mqts_dl_002.scene
 mobile_maps/mqts_dl_002/mqts_dl_002.sfl
 mobile_maps/mqts_dl_002/mqts_dl_002.tab
@@ -14488,6 +14492,7 @@ mobile_maps/mqts_fb_dxc_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_dxc_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_fb_dxc_001/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_fb_dxc_001/lightmap/simple_lightmap_0_4.dds
+mobile_maps/mqts_fb_dxc_001/mqts_fb_dxc_001.map
 mobile_maps/mqts_fb_dxc_001/mqts_fb_dxc_001.scene
 mobile_maps/mqts_fb_dxc_001/mqts_fb_dxc_001.sfl
 mobile_maps/mqts_fb_dxc_001/mqts_fb_dxc_001.walkplane
@@ -14507,6 +14512,7 @@ mobile_maps/mqts_fb_lmly_001/1_3_-3.scene
 mobile_maps/mqts_fb_lmly_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_lmly_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_fb_lmly_001/lightmap/simple_lightmap_0_3.dds
+mobile_maps/mqts_fb_lmly_001/mqts_fb_lmly_001.map
 mobile_maps/mqts_fb_lmly_001/mqts_fb_lmly_001.nav
 mobile_maps/mqts_fb_lmly_001/mqts_fb_lmly_001.scene
 mobile_maps/mqts_fb_lmly_001/mqts_fb_lmly_001.sfl
@@ -14530,6 +14536,7 @@ mobile_maps/mqts_fb_lmly_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_lmly_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_mszc_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_mszc_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_mszc_001/mqts_fb_mszc_001.map
 mobile_maps/mqts_fb_mszc_001/mqts_fb_mszc_001.scene
 mobile_maps/mqts_fb_mszc_001/mqts_fb_mszc_001.sfl
 mobile_maps/mqts_fb_mszc_001/mqts_fb_mszc_001.tab
@@ -14551,6 +14558,7 @@ mobile_maps/mqts_fb_mszc_001/terrain/1_3_-2.tga
 mobile_maps/mqts_fb_mszc_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_mszc_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_mwcx_002/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_fb_mwcx_002/mqts_fb_mwcx_002.map
 mobile_maps/mqts_fb_mwcx_002/mqts_fb_mwcx_002.scene
 mobile_maps/mqts_fb_mwcx_002/mqts_fb_mwcx_002.sfl
 mobile_maps/mqts_fb_mwcx_002/mqts_fb_mwcx_002.tab
@@ -14566,6 +14574,7 @@ mobile_maps/mqts_fb_myxp_001/1_2_-4.scene
 mobile_maps/mqts_fb_myxp_001/1_3_-2.scene
 mobile_maps/mqts_fb_myxp_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_myxp_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_myxp_001/mqts_fb_myxp_001.map
 mobile_maps/mqts_fb_myxp_001/mqts_fb_myxp_001.nav
 mobile_maps/mqts_fb_myxp_001/mqts_fb_myxp_001.scene
 mobile_maps/mqts_fb_myxp_001/mqts_fb_myxp_001.sfl
@@ -14579,6 +14588,7 @@ mobile_maps/mqts_fb_palouti_001/1_1_-1.scene
 mobile_maps/mqts_fb_palouti_001/1_1_-2.scene
 mobile_maps/mqts_fb_palouti_001/1_1_0.scene
 mobile_maps/mqts_fb_palouti_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_fb_palouti_001/mqts_fb_palouti_001.map
 mobile_maps/mqts_fb_palouti_001/mqts_fb_palouti_001.scene
 mobile_maps/mqts_fb_palouti_001/mqts_fb_palouti_001.sfl
 mobile_maps/mqts_fb_palouti_001/mqts_fb_palouti_001.walkplane
@@ -14587,6 +14597,7 @@ mobile_maps/mqts_fb_palouti_001/terrain/1_0_-2.tga
 mobile_maps/mqts_fb_palouti_001/terrain/1_1_-1.tga
 mobile_maps/mqts_fb_palouti_001/terrain/1_1_-2.tga
 mobile_maps/mqts_fb_psxk_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_fb_psxk_001/mqts_fb_psxk_001.map
 mobile_maps/mqts_fb_psxk_001/mqts_fb_psxk_001.scene
 mobile_maps/mqts_fb_psxk_001/mqts_fb_psxk_001.sfl
 mobile_maps/mqts_fb_psxk_001/mqts_fb_psxk_001.tab
@@ -14609,6 +14620,7 @@ mobile_maps/mqts_fb_psxk_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_psxk_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_rjrq_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_rjrq_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_rjrq_001/mqts_fb_rjrq_001.map
 mobile_maps/mqts_fb_rjrq_001/mqts_fb_rjrq_001.scene
 mobile_maps/mqts_fb_rjrq_001/mqts_fb_rjrq_001.sfl
 mobile_maps/mqts_fb_rjrq_001/mqts_fb_rjrq_001.tab
@@ -14632,6 +14644,7 @@ mobile_maps/mqts_fb_rjrq_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_tslc_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_tslc_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_fb_tslc_001/lightmap/simple_lightmap_0_3.dds
+mobile_maps/mqts_fb_tslc_001/mqts_fb_tslc_001.map
 mobile_maps/mqts_fb_tslc_001/mqts_fb_tslc_001.nav
 mobile_maps/mqts_fb_tslc_001/mqts_fb_tslc_001.scene
 mobile_maps/mqts_fb_tslc_001/mqts_fb_tslc_001.sfl
@@ -14653,6 +14666,7 @@ mobile_maps/mqts_fb_tslc_001/terrain/1_3_-2.tga
 mobile_maps/mqts_fb_tslc_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_tslc_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_xinmo_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_fb_xinmo_001/mqts_fb_xinmo_001.map
 mobile_maps/mqts_fb_xinmo_001/mqts_fb_xinmo_001.scene
 mobile_maps/mqts_fb_xinmo_001/mqts_fb_xinmo_001.sfl
 mobile_maps/mqts_fb_xinmo_001/mqts_fb_xinmo_001.walkplane
@@ -14662,6 +14676,7 @@ mobile_maps/mqts_fb_xinmo_001/terrain/1_1_-1.tga
 mobile_maps/mqts_fb_xinmo_001/terrain/1_1_-2.tga
 mobile_maps/mqts_fb_yhzt_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_yhzt_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_yhzt_001/mqts_fb_yhzt_001.map
 mobile_maps/mqts_fb_yhzt_001/mqts_fb_yhzt_001.scene
 mobile_maps/mqts_fb_yhzt_001/mqts_fb_yhzt_001.sfl
 mobile_maps/mqts_fb_yhzt_001/mqts_fb_yhzt_001.tab
@@ -14684,6 +14699,7 @@ mobile_maps/mqts_fb_yhzt_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_yhzt_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_yiji_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_yiji_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_yiji_001/mqts_fb_yiji_001.map
 mobile_maps/mqts_fb_yiji_001/mqts_fb_yiji_001.scene
 mobile_maps/mqts_fb_yiji_001/mqts_fb_yiji_001.sfl
 mobile_maps/mqts_fb_yiji_001/mqts_fb_yiji_001.walkplane
@@ -14701,6 +14717,7 @@ mobile_maps/mqts_fb_yiji_001/terrain/1_3_-3.tga
 mobile_maps/mqts_fb_yiji_001/terrain/1_3_-4.tga
 mobile_maps/mqts_fb_zasl_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_fb_zasl_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_fb_zasl_001/mqts_fb_zasl_001.map
 mobile_maps/mqts_fb_zasl_001/mqts_fb_zasl_001.nav
 mobile_maps/mqts_fb_zasl_001/mqts_fb_zasl_001.scene
 mobile_maps/mqts_fb_zasl_001/mqts_fb_zasl_001.sfl
@@ -14772,6 +14789,7 @@ mobile_maps/mqts_hd_ayboss_001/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_hd_ayboss_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_ayboss_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_hd_ayboss_001/lightmap/simple_lightmap_0_6.dds
+mobile_maps/mqts_hd_ayboss_001/mqts_hd_ayboss_001.map
 mobile_maps/mqts_hd_ayboss_001/mqts_hd_ayboss_001.nav
 mobile_maps/mqts_hd_ayboss_001/mqts_hd_ayboss_001.scene
 mobile_maps/mqts_hd_ayboss_001/mqts_hd_ayboss_001.sfl
@@ -14841,6 +14859,7 @@ mobile_maps/mqts_hd_ayboss_001/terrain/1_7_-6.tga
 mobile_maps/mqts_hd_ayboss_001/terrain/1_7_-7.tga
 mobile_maps/mqts_hd_ayboss_001/terrain/1_7_-8.tga
 mobile_maps/mqts_hd_boss_002/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_boss_002/mqts_hd_boss_002.map
 mobile_maps/mqts_hd_boss_002/mqts_hd_boss_002.scene
 mobile_maps/mqts_hd_boss_002/mqts_hd_boss_002.sfl
 mobile_maps/mqts_hd_boss_002/mqts_hd_boss_002.walkplane
@@ -14853,6 +14872,7 @@ mobile_maps/mqts_hd_cbt_001/1_0_-2.scene
 mobile_maps/mqts_hd_cbt_001/1_1_-1.scene
 mobile_maps/mqts_hd_cbt_001/1_1_-2.scene
 mobile_maps/mqts_hd_cbt_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_cbt_001/mqts_hd_cbt_001.map
 mobile_maps/mqts_hd_cbt_001/mqts_hd_cbt_001.scene
 mobile_maps/mqts_hd_cbt_001/mqts_hd_cbt_001.sfl
 mobile_maps/mqts_hd_cbt_001/mqts_hd_cbt_001.tga
@@ -14866,6 +14886,7 @@ mobile_maps/mqts_hd_cbt_002/1_0_-2.scene
 mobile_maps/mqts_hd_cbt_002/1_1_-1.scene
 mobile_maps/mqts_hd_cbt_002/1_1_-2.scene
 mobile_maps/mqts_hd_cbt_002/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_cbt_002/mqts_hd_cbt_002.map
 mobile_maps/mqts_hd_cbt_002/mqts_hd_cbt_002.scene
 mobile_maps/mqts_hd_cbt_002/mqts_hd_cbt_002.sfl
 mobile_maps/mqts_hd_cbt_002/mqts_hd_cbt_002.tga
@@ -14879,6 +14900,7 @@ mobile_maps/mqts_hd_cbt_003/1_0_-2.scene
 mobile_maps/mqts_hd_cbt_003/1_1_-1.scene
 mobile_maps/mqts_hd_cbt_003/1_1_-2.scene
 mobile_maps/mqts_hd_cbt_003/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_cbt_003/mqts_hd_cbt_003.map
 mobile_maps/mqts_hd_cbt_003/mqts_hd_cbt_003.scene
 mobile_maps/mqts_hd_cbt_003/mqts_hd_cbt_003.sfl
 mobile_maps/mqts_hd_cbt_003/mqts_hd_cbt_003.tga
@@ -14892,6 +14914,7 @@ mobile_maps/mqts_hd_cmfy_001/1_0_-2.scene
 mobile_maps/mqts_hd_cmfy_001/1_1_-1.scene
 mobile_maps/mqts_hd_cmfy_001/1_1_-2.scene
 mobile_maps/mqts_hd_cmfy_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_cmfy_001/mqts_hd_cmfy_001.map
 mobile_maps/mqts_hd_cmfy_001/mqts_hd_cmfy_001.scene
 mobile_maps/mqts_hd_cmfy_001/mqts_hd_cmfy_001.sfl
 mobile_maps/mqts_hd_cmfy_001/mqts_hd_cmfy_001.tab
@@ -14906,6 +14929,7 @@ mobile_maps/mqts_hd_dianti_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_dianti_001/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_hd_dianti_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_dianti_001/lightmap/simple_lightmap_0_5.dds
+mobile_maps/mqts_hd_dianti_001/mqts_hd_dianti_001.map
 mobile_maps/mqts_hd_dianti_001/mqts_hd_dianti_001.scene
 mobile_maps/mqts_hd_dianti_001/mqts_hd_dianti_001.sfl
 mobile_maps/mqts_hd_dianti_001/mqts_hd_dianti_001.tab
@@ -14932,6 +14956,7 @@ mobile_maps/mqts_hd_dsjy_001/1_0_-2.scene
 mobile_maps/mqts_hd_dsjy_001/1_1_-1.scene
 mobile_maps/mqts_hd_dsjy_001/1_1_-2.scene
 mobile_maps/mqts_hd_dsjy_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_dsjy_001/mqts_hd_dsjy_001.map
 mobile_maps/mqts_hd_dsjy_001/mqts_hd_dsjy_001.scene
 mobile_maps/mqts_hd_dsjy_001/mqts_hd_dsjy_001.sfl
 mobile_maps/mqts_hd_dsjy_001/mqts_hd_dsjy_001.tab
@@ -14943,6 +14968,7 @@ mobile_maps/mqts_hd_dsjy_001/terrain/1_1_-2.tga
 mobile_maps/mqts_hd_dt_002/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_dt_002/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_dt_002/lightmap/simple_lightmap_0_3.dds
+mobile_maps/mqts_hd_dt_002/mqts_hd_dt_002.map
 mobile_maps/mqts_hd_dt_002/mqts_hd_dt_002.nav
 mobile_maps/mqts_hd_dt_002/mqts_hd_dt_002.scene
 mobile_maps/mqts_hd_dt_002/mqts_hd_dt_002.sfl
@@ -14963,6 +14989,7 @@ mobile_maps/mqts_hd_dt_002/terrain/1_3_-1.tga
 mobile_maps/mqts_hd_dt_002/terrain/1_3_-2.tga
 mobile_maps/mqts_hd_dt_002/terrain/1_3_-3.tga
 mobile_maps/mqts_hd_dt_002/terrain/1_3_-4.tga
+mobile_maps/mqts_hd_feichuan_001/mqts_hd_feichuan_001.map
 mobile_maps/mqts_hd_feichuan_001/mqts_hd_feichuan_001.scene
 mobile_maps/mqts_hd_feichuan_001/mqts_hd_feichuan_001.sfl
 mobile_maps/mqts_hd_feichuan_001/mqts_hd_feichuan_001.tga
@@ -14972,11 +14999,13 @@ mobile_maps/mqts_hd_grjj_004/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_grjj_004/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_hd_grjj_004/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_grjj_004/lightmap/simple_lightmap_0_5.dds
+mobile_maps/mqts_hd_grjj_004/mqts_hd_grjj_004.map
 mobile_maps/mqts_hd_grjj_004/mqts_hd_grjj_004.scene
 mobile_maps/mqts_hd_grjj_004/mqts_hd_grjj_004.sfl
 mobile_maps/mqts_hd_grjj_004/mqts_hd_grjj_004.walkplane
 mobile_maps/mqts_hd_haidao_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_haidao_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_hd_haidao_001/mqts_hd_haidao_001.map
 mobile_maps/mqts_hd_haidao_001/mqts_hd_haidao_001.scene
 mobile_maps/mqts_hd_haidao_001/mqts_hd_haidao_001.sfl
 mobile_maps/mqts_hd_haidao_001/mqts_hd_haidao_001.walkplane
@@ -15000,6 +15029,7 @@ mobile_maps/mqts_hd_lktb_002/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_lktb_002/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_lktb_002/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_hd_lktb_002/lightmap/simple_lightmap_0_4.dds
+mobile_maps/mqts_hd_lktb_002/mqts_hd_lktb_002.map
 mobile_maps/mqts_hd_lktb_002/mqts_hd_lktb_002.scene
 mobile_maps/mqts_hd_lktb_002/mqts_hd_lktb_002.sfl
 mobile_maps/mqts_hd_lktb_002/mqts_hd_lktb_002.tab
@@ -15028,6 +15058,7 @@ mobile_maps/mqts_hd_mjyy_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_mjyy_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_hd_mjyy_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_hd_mjyy_001/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_hd_mjyy_001/mqts_hd_mjyy_001.map
 mobile_maps/mqts_hd_mjyy_001/mqts_hd_mjyy_001.nav
 mobile_maps/mqts_hd_mjyy_001/mqts_hd_mjyy_001.scene
 mobile_maps/mqts_hd_mjyy_001/mqts_hd_mjyy_001.sfl
@@ -15115,6 +15146,7 @@ mobile_maps/mqts_hd_ptzc_001/1_3_-4.scene
 mobile_maps/mqts_hd_ptzc_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_ptzc_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_ptzc_001/lightmap/simple_lightmap_0_3.dds
+mobile_maps/mqts_hd_ptzc_001/mqts_hd_ptzc_001.map
 mobile_maps/mqts_hd_ptzc_001/mqts_hd_ptzc_001.scene
 mobile_maps/mqts_hd_ptzc_001/mqts_hd_ptzc_001.sfl
 mobile_maps/mqts_hd_ptzc_001/mqts_hd_ptzc_001.walkplane
@@ -15136,6 +15168,7 @@ mobile_maps/mqts_hd_ptzc_001/terrain/1_3_-3.tga
 mobile_maps/mqts_hd_ptzc_001/terrain/1_3_-4.tga
 mobile_maps/mqts_hd_tiaoyue_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_tiaoyue_001/lightmap/simple_lightmap_0_2.dds
+mobile_maps/mqts_hd_tiaoyue_001/mqts_hd_tiaoyue_001.map
 mobile_maps/mqts_hd_tiaoyue_001/mqts_hd_tiaoyue_001.scene
 mobile_maps/mqts_hd_tiaoyue_001/mqts_hd_tiaoyue_001.sfl
 mobile_maps/mqts_hd_tiaoyue_001/mqts_hd_tiaoyue_001.tab
@@ -15145,6 +15178,7 @@ mobile_maps/mqts_hd_ymyj_001/1_0_-2.scene
 mobile_maps/mqts_hd_ymyj_001/1_1_-1.scene
 mobile_maps/mqts_hd_ymyj_001/1_1_-2.scene
 mobile_maps/mqts_hd_ymyj_001/lightmap/simple_lightmap_0_1.dds
+mobile_maps/mqts_hd_ymyj_001/mqts_hd_ymyj_001.map
 mobile_maps/mqts_hd_ymyj_001/mqts_hd_ymyj_001.scene
 mobile_maps/mqts_hd_ymyj_001/mqts_hd_ymyj_001.sfl
 mobile_maps/mqts_hd_ymyj_001/mqts_hd_ymyj_001.tab
@@ -15160,6 +15194,7 @@ mobile_maps/mqts_hd_ysjd_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_ysjd_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_hd_ysjd_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_hd_ysjd_001/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_hd_ysjd_001/mqts_hd_ysjd_001.map
 mobile_maps/mqts_hd_ysjd_001/mqts_hd_ysjd_001.nav
 mobile_maps/mqts_hd_ysjd_001/mqts_hd_ysjd_001.scene
 mobile_maps/mqts_hd_ysjd_001/mqts_hd_ysjd_001.sfl
@@ -15236,6 +15271,7 @@ mobile_maps/mqts_hd_ysjd_002/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_hd_ysjd_002/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_hd_ysjd_002/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_hd_ysjd_002/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_hd_ysjd_002/mqts_hd_ysjd_002.map
 mobile_maps/mqts_hd_ysjd_002/mqts_hd_ysjd_002.nav
 mobile_maps/mqts_hd_ysjd_002/mqts_hd_ysjd_002.scene
 mobile_maps/mqts_hd_ysjd_002/mqts_hd_ysjd_002.sfl
@@ -15308,6 +15344,7 @@ mobile_maps/mqts_hd_ysjd_002/terrain/1_7_-8.tga
 mobile_maps/mqts_hd_zmmw_001/lightmap/simple_lightmap_0_1.dds
 mobile_maps/mqts_hd_zmmw_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_hd_zmmw_001/lightmap/simple_lightmap_0_3.dds
+mobile_maps/mqts_hd_zmmw_001/mqts_hd_zmmw_001.map
 mobile_maps/mqts_hd_zmmw_001/mqts_hd_zmmw_001.nav
 mobile_maps/mqts_hd_zmmw_001/mqts_hd_zmmw_001.scene
 mobile_maps/mqts_hd_zmmw_001/mqts_hd_zmmw_001.sfl
@@ -15392,6 +15429,7 @@ mobile_maps/mqts_ll_blds_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_blds_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_blds_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_blds_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_blds_001/mqts_ll_blds_001.map
 mobile_maps/mqts_ll_blds_001/mqts_ll_blds_001.nav
 mobile_maps/mqts_ll_blds_001/mqts_ll_blds_001.scene
 mobile_maps/mqts_ll_blds_001/mqts_ll_blds_001.sfl
@@ -15513,6 +15551,7 @@ mobile_maps/mqts_ll_by_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_ll_by_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_by_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_by_001/lightmap/simple_lightmap_0_8.dds
+mobile_maps/mqts_ll_by_001/mqts_ll_by_001.map
 mobile_maps/mqts_ll_by_001/mqts_ll_by_001.nav
 mobile_maps/mqts_ll_by_001/mqts_ll_by_001.scene
 mobile_maps/mqts_ll_by_001/mqts_ll_by_001.sfl
@@ -15646,6 +15685,7 @@ mobile_maps/mqts_ll_hssm_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_ll_hssm_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_ll_hssm_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_hssm_001/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_ll_hssm_001/mqts_ll_hssm_001.map
 mobile_maps/mqts_ll_hssm_001/mqts_ll_hssm_001.nav
 mobile_maps/mqts_ll_hssm_001/mqts_ll_hssm_001.scene
 mobile_maps/mqts_ll_hssm_001/mqts_ll_hssm_001.sfl
@@ -15766,6 +15806,7 @@ mobile_maps/mqts_ll_lmly_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_lmly_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_lmly_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_lmly_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_lmly_001/mqts_ll_lmly_001.map
 mobile_maps/mqts_ll_lmly_001/mqts_ll_lmly_001.nav
 mobile_maps/mqts_ll_lmly_001/mqts_ll_lmly_001.scene
 mobile_maps/mqts_ll_lmly_001/mqts_ll_lmly_001.sfl
@@ -15892,6 +15933,7 @@ mobile_maps/mqts_ll_lmzd/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_ll_lmzd/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_ll_lmzd/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_lmzd/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_ll_lmzd/mqts_ll_lmzd.map
 mobile_maps/mqts_ll_lmzd/mqts_ll_lmzd.nav
 mobile_maps/mqts_ll_lmzd/mqts_ll_lmzd.scene
 mobile_maps/mqts_ll_lmzd/mqts_ll_lmzd.sfl
@@ -16019,6 +16061,7 @@ mobile_maps/mqts_ll_mj_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_mj_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_mj_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_mj_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_mj_001/mqts_ll_mj_001.map
 mobile_maps/mqts_ll_mj_001/mqts_ll_mj_001.nav
 mobile_maps/mqts_ll_mj_001/mqts_ll_mj_001.scene
 mobile_maps/mqts_ll_mj_001/mqts_ll_mj_001.sfl
@@ -16143,6 +16186,7 @@ mobile_maps/mqts_ll_mls_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_mls_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_mls_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_mls_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_mls_001/mqts_ll_mls_001.map
 mobile_maps/mqts_ll_mls_001/mqts_ll_mls_001.nav
 mobile_maps/mqts_ll_mls_001/mqts_ll_mls_001.scene
 mobile_maps/mqts_ll_mls_001/mqts_ll_mls_001.sfl
@@ -16264,6 +16308,7 @@ mobile_maps/mqts_ll_yad_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_yad_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_yad_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_yad_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_yad_001/mqts_ll_yad_001.map
 mobile_maps/mqts_ll_yad_001/mqts_ll_yad_001.nav
 mobile_maps/mqts_ll_yad_001/mqts_ll_yad_001.scene
 mobile_maps/mqts_ll_yad_001/mqts_ll_yad_001.sfl
@@ -16381,6 +16426,7 @@ mobile_maps/mqts_ll_ygsl_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_ll_ygsl_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_ll_ygsl_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_ll_ygsl_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_ll_ygsl_001/mqts_ll_ygsl_001.map
 mobile_maps/mqts_ll_ygsl_001/mqts_ll_ygsl_001.nav
 mobile_maps/mqts_ll_ygsl_001/mqts_ll_ygsl_001.scene
 mobile_maps/mqts_ll_ygsl_001/mqts_ll_ygsl_001.sfl
@@ -16534,6 +16580,7 @@ mobile_maps/mqts_xsc_wsd_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_xsc_wsd_001/lightmap/simple_lightmap_0_5.dds
 mobile_maps/mqts_xsc_wsd_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_xsc_wsd_001/lightmap/simple_lightmap_0_7.dds
+mobile_maps/mqts_xsc_wsd_001/mqts_xsc_wsd_001.map
 mobile_maps/mqts_xsc_wsd_001/mqts_xsc_wsd_001.nav
 mobile_maps/mqts_xsc_wsd_001/mqts_xsc_wsd_001.scene
 mobile_maps/mqts_xsc_wsd_001/mqts_xsc_wsd_001.sfl
@@ -16630,6 +16677,7 @@ mobile_maps/mqts_zc_sgc_001/lightmap/simple_lightmap_0_6.dds
 mobile_maps/mqts_zc_sgc_001/lightmap/simple_lightmap_0_7.dds
 mobile_maps/mqts_zc_sgc_001/lightmap/simple_lightmap_0_8.dds
 mobile_maps/mqts_zc_sgc_001/lightmap/simple_lightmap_0_9.dds
+mobile_maps/mqts_zc_sgc_001/mqts_zc_sgc_001.map
 mobile_maps/mqts_zc_sgc_001/mqts_zc_sgc_001.nav
 mobile_maps/mqts_zc_sgc_001/mqts_zc_sgc_001.scene
 mobile_maps/mqts_zc_sgc_001/mqts_zc_sgc_001.sfl
@@ -20895,6 +20943,7 @@ mobile_maps_source/texture/mqts_zc_gkjianzhu_001.tga
 mobile_maps_source/texture/mqts_zc_gkqiang_001.tga
 mobile_maps_source/texture/mqts_zc_gkyuantai_002.tga
 mobile_maps_source/texture/mqts_zc_gkzhuzi_002.tga
+role_2_map_6.idleupdate.pcfg
 scripts/client_script_list.txt
 ui/icon/advdungeon/i_mxfb_baoxiang.tga
 ui/icon/advdungeon/i_mxfb_baoxiangqz.tga
