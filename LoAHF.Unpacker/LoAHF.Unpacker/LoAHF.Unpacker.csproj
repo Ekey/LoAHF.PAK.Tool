@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,16 +44,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileSystem\Compression\LZMA.cs" />
     <Compile Include="FileSystem\Compression\SNAPPY.cs" />
-    <Compile Include="FileSystem\Compression\Snappy\Snappy.cs" />
-    <Compile Include="FileSystem\Compression\Snappy\SnappyCompressor.cs" />
-    <Compile Include="FileSystem\Compression\Snappy\SnappyDecompressor.cs" />
-    <Compile Include="FileSystem\Compression\Snappy\SnappyStream.cs" />
-    <Compile Include="FileSystem\Compression\Snappy\Utilities.cs" />
+    <Compile Include="Libs\7zip\Common\CommandLineParser.cs" />
+    <Compile Include="Libs\7zip\Common\CRC.cs" />
+    <Compile Include="Libs\7zip\Common\InBuffer.cs" />
+    <Compile Include="Libs\7zip\Common\OutBuffer.cs" />
+    <Compile Include="Libs\7zip\Compress\LZMA\LzmaBase.cs" />
+    <Compile Include="Libs\7zip\Compress\LZMA\LzmaDecoder.cs" />
+    <Compile Include="Libs\7zip\Compress\LZMA\LzmaEncoder.cs" />
+    <Compile Include="Libs\7zip\Compress\LZ\IMatchFinder.cs" />
+    <Compile Include="Libs\7zip\Compress\LZ\LzBinTree.cs" />
+    <Compile Include="Libs\7zip\Compress\LZ\LzInWindow.cs" />
+    <Compile Include="Libs\7zip\Compress\LZ\LzOutWindow.cs" />
+    <Compile Include="Libs\7zip\Compress\RangeCoder\RangeCoder.cs" />
+    <Compile Include="Libs\7zip\Compress\RangeCoder\RangeCoderBit.cs" />
+    <Compile Include="Libs\7zip\Compress\RangeCoder\RangeCoderBitTree.cs" />
+    <Compile Include="Libs\7zip\ICoder.cs" />
+    <Compile Include="Libs\Snappy\Snappy.cs" />
+    <Compile Include="Libs\Snappy\SnappyCompressor.cs" />
+    <Compile Include="Libs\Snappy\SnappyDecompressor.cs" />
+    <Compile Include="Libs\Snappy\SnappyStream.cs" />
+    <Compile Include="Libs\Snappy\Utilities.cs" />
     <Compile Include="FileSystem\Encryption\PakCipher.cs" />
     <Compile Include="FileSystem\Other\Helpers.cs" />
     <Compile Include="FileSystem\Other\Utils.cs" />
     <Compile Include="FileSystem\Package\PakEntry.cs" />
+    <Compile Include="FileSystem\Package\PakFlags.cs" />
     <Compile Include="FileSystem\Package\PakHash.cs" />
     <Compile Include="FileSystem\Package\PakHashList.cs" />
     <Compile Include="FileSystem\Package\PakHeader.cs" />

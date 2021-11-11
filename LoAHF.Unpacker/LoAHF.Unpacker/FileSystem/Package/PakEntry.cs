@@ -10,7 +10,7 @@ namespace LoAHF.Unpacker
         public Int32 dwCompressedSize { get; set; }
         public Int32 dwEncryptedSize { get; set; }
         public Int32 dwDecompressedSize { get; set; }
-        public UInt16 wFlag1 { get; set; }
-        public UInt16 wFlag2 { get; set; }
+        public UInt16 wIsCompressed { get; set; }
+        public PakFlags wCompressionType { get; set; }
     }
 }

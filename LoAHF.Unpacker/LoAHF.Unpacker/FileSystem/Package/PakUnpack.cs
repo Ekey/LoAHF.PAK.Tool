@@ -60,8 +60,10 @@ namespace LoAHF.Unpacker
                             Int32 dwCompressedSize = TEntryReader.ReadInt32();
                             Int32 dwEncryptedSize = TEntryReader.ReadInt32();
                             Int32 dwDecompressedSize = TEntryReader.ReadInt32();
-                            UInt16 wFlag1 = TEntryReader.ReadUInt16();
-                            UInt16 wFlag2 = TEntryReader.ReadUInt16();
+                            UInt16 wIsCompressed = TEntryReader.ReadUInt16();
+                            UInt16 wCompressionType = TEntryReader.ReadUInt16();
+                            wCompressionType = (UInt16)((wCompressionType << 8) | (wCompressionType >> 8));
+                            wCompressionType &= 0xF;
 
                             var TEntry = new PakEntry
                             {
@@ -71,8 +73,8 @@ namespace LoAHF.Unpacker
                                 dwCompressedSize = dwCompressedSize,
                                 dwEncryptedSize = dwEncryptedSize,
                                 dwDecompressedSize = dwDecompressedSize,
-                                wFlag1 = wFlag1,
-                                wFlag2 = wFlag2,
+                                wIsCompressed = wIsCompressed,
+                                wCompressionType = (PakFlags)wCompressionType,
                             };
 
                             m_EntryTable.Add(TEntry);
@@ -80,7 +82,6 @@ namespace LoAHF.Unpacker
                     }
 
                     TPakStream.Position = m_EntryTable[m_BlockHeader.dwTotalFiles - 1].dwOffset + m_EntryTable[m_BlockHeader.dwTotalFiles - 1].dwEncryptedSize;
-                    Console.WriteLine("[INFO]: Next block offset: {0}", TPakStream.Position);
                 }
 
                 foreach (var m_Entry in m_EntryTable)
@@ -97,7 +98,21 @@ namespace LoAHF.Unpacker
                         var lpBuffer = TPakStream.ReadBytes((Int32)m_Entry.dwCompressedSize);
                         lpBuffer = PakCipher.iDecryptData(lpBuffer, m_Entry.dwNameHash, m_Entry.dwCompressedSize);
 
-                        if (m_Entry.dwCompressedSize != m_Entry.dwDecompressedSize)
+                        if (m_Entry.wCompressionType == PakFlags.NONE)
+                        {
+                            File.WriteAllBytes(m_FullPath, lpBuffer);
+                        }
+                        else if(m_Entry.wCompressionType == PakFlags.LZO)
+                        {
+                            //TODO....
+                            File.WriteAllBytes(m_FullPath, lpBuffer);
+                        }
+                        else if (m_Entry.wCompressionType == PakFlags.LZMA)
+                        {
+                            var lpDstBuffer = LZMA.iDecompress(lpBuffer, m_Entry.dwCompressedSize);
+                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                        }
+                        else if (m_Entry.wCompressionType == PakFlags.SNAPPY)
                         {
                             if (m_FileName != "game.dll")
                             {
@@ -112,7 +127,7 @@ namespace LoAHF.Unpacker
                         }
                         else
                         {
-                            File.WriteAllBytes(m_FullPath, lpBuffer);
+                            throw new Exception("[ERROR]: Unknown compression type -> " + m_Entry.wCompressionType.ToString());
                         }
                     }
                     else
