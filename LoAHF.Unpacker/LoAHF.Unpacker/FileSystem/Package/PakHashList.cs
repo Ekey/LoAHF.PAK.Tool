@@ -27,8 +27,8 @@ namespace LoAHF.Unpacker
             StreamReader TProjectFile = new StreamReader(m_ProjectFilePath);
             while ((m_Line = TProjectFile.ReadLine()) != null)
             {
-                UInt32 dwHashV2 = Hash.iGetHash_v2(m_Line);
-                UInt32 dwHashV3 = Hash.iGetHash_v3(m_Line);
+                UInt32 dwHashV2 = Hash.iGetHash_v2(m_Line.ToLower());
+                UInt32 dwHashV3 = Hash.iGetHash_v3(m_Line.ToLower());
                 UInt64 dwHash = (UInt64)dwHashV3 << 32 | dwHashV2;
 
                 if (m_HashList.ContainsKey(dwHash))
