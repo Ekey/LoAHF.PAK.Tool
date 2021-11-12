@@ -132,7 +132,7 @@ namespace LoAHF.Unpacker
                     }
                     else
                     {
-                        Utils.iSetInfo("[SKIPPING]: File " + m_FileName + " was removed from archive");
+                        Utils.iSetInfo("[SKIPPED]: File " + m_FileName + " was removed from archive");
                     }
                 }
             }
