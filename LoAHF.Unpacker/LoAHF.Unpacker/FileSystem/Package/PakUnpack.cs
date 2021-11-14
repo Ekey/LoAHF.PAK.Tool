@@ -89,7 +89,7 @@ namespace LoAHF.Unpacker
                     String m_FileName = PakHashList.iGetNameFromHashList(m_Entry.dwNameHash);
                     String m_FullPath = m_DstFolder + m_FileName;
 
-                    if (m_Entry.dwCompressedSize != 0 && m_Entry.dwEncryptedSize != 0 && m_Entry.dwDecompressedSize != 0)
+                    if (m_Entry.dwCompressedSize != 0 && m_Entry.dwDecompressedSize != 0)
                     {
                         Utils.iSetInfo("[UNPACKING]: " + m_FileName);
                         Utils.iCreateDirectory(m_FullPath);
