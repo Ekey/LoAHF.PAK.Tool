@@ -114,7 +114,7 @@ namespace LoAHF.Unpacker
                         }
                         else if (m_Entry.wCompressionType == PakFlags.SNAPPY)
                         {
-                            if (m_FileName != "game.dll")
+                            if (m_FileName != "game.dll" && !m_FileName.Contains("8D6D71A8587761CD"))
                             {
                                 var lpDstBuffer = SNAPPY.iDecompress(lpBuffer, m_Entry.dwCompressedSize);
                                 File.WriteAllBytes(m_FullPath, lpDstBuffer);
