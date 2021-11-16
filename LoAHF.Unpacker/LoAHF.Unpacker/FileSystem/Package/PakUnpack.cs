@@ -40,6 +40,10 @@ namespace LoAHF.Unpacker
                 m_EntryTable.Clear();
                 for (Int32 i = 0; i < m_Header.dwTotalFiles; i++)
                 {
+                    if (TPakStream.Position >= m_Header.dwArchiveSize) {
+                        break;
+                    }
+					
                     var lpBlock = TPakStream.ReadBytes(8);
                     var m_BlockHeader = new PakBlockHeader();
 
@@ -81,7 +85,7 @@ namespace LoAHF.Unpacker
                         }
                     }
 
-                    TPakStream.Position = m_EntryTable[m_BlockHeader.dwTotalFiles - 1].dwOffset + m_EntryTable[m_BlockHeader.dwTotalFiles - 1].dwEncryptedSize;
+                    TPakStream.Position = m_EntryTable[m_EntryTable.Count - 1].dwOffset + m_EntryTable[m_EntryTable.Count - 1].dwEncryptedSize;
                 }
 
                 foreach (var m_Entry in m_EntryTable)
