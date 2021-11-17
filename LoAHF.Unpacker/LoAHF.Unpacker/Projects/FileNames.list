@@ -26688,10 +26688,17 @@ mqts_zc_sgc_001_preload
 resourcepath.cfg
 role_2_map_1.idleupdate.pcfg
 role_2_map_2.idleupdate.pcfg
+role_2_map_207.idleupdate.pcfg
+role_2_map_209.idleupdate.pcfg
+role_2_map_231.idleupdate.pcfg
+role_2_map_280.idleupdate.pcfg
+role_2_map_281.idleupdate.pcfg
 role_2_map_3.idleupdate.pcfg
 role_2_map_4.idleupdate.pcfg
+role_2_map_400.idleupdate.pcfg
 role_2_map_5.idleupdate.pcfg
 role_2_map_6.idleupdate.pcfg
+role_2_map_950.idleupdate.pcfg
 role_3_map_2.idleupdate.pcfg
 role_3_map_280.idleupdate.pcfg
 role_3_map_3.idleupdate.pcfg
