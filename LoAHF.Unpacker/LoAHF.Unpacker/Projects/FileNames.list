@@ -16950,6 +16950,7 @@ mobile_maps/mqts_fb_husong_001/lightmap/simple_lightmap_0_2.dds
 mobile_maps/mqts_fb_husong_001/lightmap/simple_lightmap_0_3.dds
 mobile_maps/mqts_fb_husong_001/lightmap/simple_lightmap_0_4.dds
 mobile_maps/mqts_fb_husong_001/lightmap/simple_lightmap_0_5.dds
+mobile_maps/mqts_fb_husong_001/mqts_fb_husong_001.map
 mobile_maps/mqts_fb_husong_001/mqts_fb_husong_001.nav
 mobile_maps/mqts_fb_husong_001/mqts_fb_husong_001.scene
 mobile_maps/mqts_fb_husong_001/mqts_fb_husong_001.sfl
@@ -26628,6 +26629,7 @@ mobile_maps_source/texture/mqts_zc_gkzhuzi_001.tga
 mobile_maps_source/texture/mqts_zc_gkzhuzi_002.tga
 mqts_dl_002_preload
 mqts_fb_dxc_001_preload
+mqts_fb_husong_001_preload
 mqts_fb_lmly_001_preload
 mqts_fb_mls_001_preload
 mqts_fb_mszc_001_preload
