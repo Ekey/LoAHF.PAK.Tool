@@ -558,6 +558,10 @@ data/effect/effectmodel/entity_pu/normal_44_wuqi001.mesh
 data/effect/effectmodel/entity_pu/normal_65_jian.mesh
 data/effect/effectmodel/entity_pu/normal_65_shoubi001.mesh
 data/effect/effectmodel/entity_pu/normal_65_shoubi002.mesh
+data/effect/effectmodel/entity_pu/normal_67_beici001.mesh
+data/effect/effectmodel/entity_pu/normal_67_beici002.mesh
+data/effect/effectmodel/entity_pu/normal_67_beici003.mesh
+data/effect/effectmodel/entity_pu/normal_67_beici004.mesh
 data/effect/effectmodel/entity_pu/npc_lafeier_luoxuan01.mesh
 data/effect/effectmodel/entity_pu/npc_lafeier_luoxuan02.mesh
 data/effect/effectmodel/entity_pu/npc_lafeier_luoxuan03.mesh
@@ -692,6 +696,8 @@ data/effect/effectmodel/entity_pu/qs_skill_zheshe01.mesh
 data/effect/effectmodel/entity_pu/qs_skill_zheshe02.mesh
 data/effect/effectmodel/entity_pu/qs_skill_zheshe03.mesh
 data/effect/effectmodel/entity_pu/qs_skill_zheshe04.mesh
+data/effect/effectmodel/entity_pu/qs_w_xinnian_mianpian001.mesh
+data/effect/effectmodel/entity_pu/qs_yingzi01.mesh
 data/effect/effectmodel/entity_pu/qs_zadi_fangshe01.mesh
 data/effect/effectmodel/entity_pu/qts_chengmen_plane01.mesh
 data/effect/effectmodel/entity_pu/qts_chusheng_lx01.mesh
@@ -738,6 +744,10 @@ data/effect/effectmodel/entity_pu/qts_huangzu14_plane01.mesh
 data/effect/effectmodel/entity_pu/qts_huangzu14_plane02.mesh
 data/effect/effectmodel/entity_pu/qts_huangzu14_plane03.mesh
 data/effect/effectmodel/entity_pu/qts_jingling_11_jiao01.mesh
+data/effect/effectmodel/entity_pu/qts_lingwu05_plane01.mesh
+data/effect/effectmodel/entity_pu/qts_lingwu05_plane02.mesh
+data/effect/effectmodel/entity_pu/qts_lingwu05_plane03.mesh
+data/effect/effectmodel/entity_pu/qts_lingwu05_plane04.mesh
 data/effect/effectmodel/entity_pu/qts_mds_wudishangjiang01.mesh
 data/effect/effectmodel/entity_pu/qts_noraml36_plane03.mesh
 data/effect/effectmodel/entity_pu/qts_normal11_plane01.mesh
@@ -1866,6 +1876,7 @@ data/effect/pu_other/eff_juese_hunsha_01.pu
 data/effect/pu_other/eff_juese_hunsha_02.pu
 data/effect/pu_other/eff_juese_shishangdaren_01.pu
 data/effect/pu_other/eff_juese_shishangdaren_02.pu
+data/effect/pu_other/eff_juese_shishangdaren_05.pu
 data/effect/pu_other/eff_juese_tangzhuang_01.pu
 data/effect/pu_other/eff_mqts_wing_56.pu
 data/effect/pu_other/eff_mqts_wing_56_2.pu
@@ -2158,6 +2169,8 @@ data/effect/pu_other/mqts_sj_dilandaer_zhujian_01.pu
 data/effect/pu_other/mqts_sss_pifu_gaoda_001_dj.pu
 data/effect/pu_other/mqts_sss_pifu_gaoda_001_shen.pu
 data/effect/pu_other/mqts_ui_login_dlzs.pu
+data/effect/pu_other/mqts_ui_login_hlzs.pu
+data/effect/pu_other/mqts_ui_zb_yifu_01_jin_001.pu
 data/effect/pu_other/mqts_w_sss_pifu_luocha_02.pu
 data/effect/pu_other/mqts_wing_pifu_09_001_01.pu
 data/effect/pu_other/mqts_wing_pifu_09_001_02.pu
@@ -2172,6 +2185,7 @@ data/effect/pu_other/qts_fabao_pifu_02_001.pu
 data/effect/pu_other/qts_fabao_pifu_03_001.pu
 data/effect/pu_other/qts_fabao_pifu_03_002.pu
 data/effect/pu_other/qts_fabao_pifu_03_003.pu
+data/effect/pu_other/qts_gaoda_sss_zhanshi01.pu
 data/effect/pu_other/qts_huangzu_01_001.pu
 data/effect/pu_other/qts_huangzu_01_002.pu
 data/effect/pu_other/qts_huangzu_01_003.pu
@@ -2245,6 +2259,13 @@ data/effect/pu_other/qts_npc_normal_39_003.pu
 data/effect/pu_other/qts_npc_normal_39_004.pu
 data/effect/pu_other/qts_npc_normal_39_007.pu
 data/effect/pu_other/qts_npc_normal_39_008.pu
+data/effect/pu_other/qts_npc_normal_67_beici001.pu
+data/effect/pu_other/qts_npc_normal_67_beici002.pu
+data/effect/pu_other/qts_npc_normal_67_beici003.pu
+data/effect/pu_other/qts_npc_normal_67_beici004.pu
+data/effect/pu_other/qts_npc_normal_67_jian001.pu
+data/effect/pu_other/qts_npc_normal_67_jian002.pu
+data/effect/pu_other/qts_npc_normal_67_wuqi001.pu
 data/effect/pu_other/qts_npc_normal_69_chibang01.pu
 data/effect/pu_other/qts_npc_normal_69_chibang01b.pu
 data/effect/pu_other/qts_npc_normal_69_jian01.pu
@@ -2383,6 +2404,7 @@ data/effect/pu_other/qts_other_fashion_noble01.pu
 data/effect/pu_other/qts_other_fashion_noble02.pu
 data/effect/pu_other/qts_other_fashion_romantic01.pu
 data/effect/pu_other/qts_other_fashion_royal01.pu
+data/effect/pu_other/qts_other_fashion_royal02.pu
 data/effect/pu_other/qts_other_fashion_wrestle01.pu
 data/effect/pu_other/qts_other_fashion_wrestle02.pu
 data/effect/pu_other/qts_other_fashion_wrestle_camouflage01.pu
@@ -2575,6 +2597,9 @@ data/effect/pu_other/qts_other_lingwu_03_001.pu
 data/effect/pu_other/qts_other_lingwu_04_001.pu
 data/effect/pu_other/qts_other_lingwu_04_002.pu
 data/effect/pu_other/qts_other_lingwu_04_003.pu
+data/effect/pu_other/qts_other_lingwu_05_001.pu
+data/effect/pu_other/qts_other_lingwu_05_002.pu
+data/effect/pu_other/qts_other_lingwu_05_003.pu
 data/effect/pu_other/qts_other_new_panduola_11.pu
 data/effect/pu_other/qts_other_normal_03_jianbang001.pu
 data/effect/pu_other/qts_other_normal_03_tui001.pu
@@ -2961,6 +2986,12 @@ data/effect/pu_other/qts_other_wing_pifu_014_006.pu
 data/effect/pu_other/qts_other_wing_pifu_014_007.pu
 data/effect/pu_other/qts_other_wing_pifu_014_008.pu
 data/effect/pu_other/qts_other_wing_pifu_014_009.pu
+data/effect/pu_other/qts_other_wing_pifu_015_001.pu
+data/effect/pu_other/qts_other_wing_pifu_015_002.pu
+data/effect/pu_other/qts_other_wing_pifu_015_003.pu
+data/effect/pu_other/qts_other_wing_pifu_015_004.pu
+data/effect/pu_other/qts_other_wing_pifu_015_005.pu
+data/effect/pu_other/qts_other_wing_pifu_015_006.pu
 data/effect/pu_other/qts_other_wing_pifu_016_001.pu
 data/effect/pu_other/qts_other_wing_pifu_016_002.pu
 data/effect/pu_other/qts_other_wing_pifu_016_003.pu
@@ -9502,6 +9533,7 @@ data/source/npc/quest/mqts_npc_normal_34_001/mqts_npc_normal_34_001.mdl
 data/source/npc/quest/mqts_npc_normal_34_001/mqts_npc_normal_34_001.mesh
 data/source/npc/quest/mqts_npc_normal_34_001/mqts_npc_normal_34_001.mtl
 data/source/npc/quest/mqts_npc_normal_34_001/mqts_npc_normal_34_001.txt
+data/source/npc/quest/mqts_npc_normal_34_001/mqts_npc_normal_34_002.mdl
 data/source/npc/quest/mqts_npc_normal_34_001/texture/mqts_npc_normal_34_001.tga
 data/source/npc/quest/mqts_npc_normal_34_001/texture/mqts_npc_normal_34_001_liu.tga
 data/source/npc/quest/mqts_npc_normal_34_001/texture/mqts_npc_normal_34_001_nor.tga
@@ -9955,6 +9987,23 @@ data/source/npc/quest/mqts_npc_normal_66_001/mqts_npc_normal_66_001.mtl
 data/source/npc/quest/mqts_npc_normal_66_001/mqts_npc_normal_66_001.txt
 data/source/npc/quest/mqts_npc_normal_66_001/texture/mqts_npc_normal_66_001.tga
 data/source/npc/quest/mqts_npc_normal_66_001/texture/mqts_npc_normal_66_001_nor.tga
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_at01.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_at02.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_at03.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_at04.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_behit01.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_behit02.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_dead.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_deadbegin.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_idle.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_run.ani
+data/source/npc/quest/mqts_npc_normal_67_001/ani/mqts_npc_normal_67_001_stun.ani
+data/source/npc/quest/mqts_npc_normal_67_001/mqts_npc_normal_67_001.mdl
+data/source/npc/quest/mqts_npc_normal_67_001/mqts_npc_normal_67_001.mesh
+data/source/npc/quest/mqts_npc_normal_67_001/mqts_npc_normal_67_001.mtl
+data/source/npc/quest/mqts_npc_normal_67_001/mqts_npc_normal_67_001.txt
+data/source/npc/quest/mqts_npc_normal_67_001/texture/mqts_npc_normal_67_001.tga
+data/source/npc/quest/mqts_npc_normal_67_001/texture/mqts_npc_normal_67_001_nor.tga
 data/source/npc/quest/mqts_npc_normal_69_001/ani/mqts_npc_normal_69_001_at01.ani
 data/source/npc/quest/mqts_npc_normal_69_001/ani/mqts_npc_normal_69_001_behit01.ani
 data/source/npc/quest/mqts_npc_normal_69_001/ani/mqts_npc_normal_69_001_behit02.ani
@@ -10652,6 +10701,13 @@ data/source/npc/quest/mqts_ui_hqzb_zuojiezhi_01_001/mqts_ui_hqzb_zuojiezhi_01_00
 data/source/npc/quest/mqts_ui_hqzb_zuojiezhi_01_001/mqts_ui_hqzb_zuojiezhi_01_001.txt
 data/source/npc/quest/mqts_ui_hqzb_zuojiezhi_01_001/texture/mqts_ui_hqzb_zuojiezhi_01_001.tga
 data/source/npc/quest/mqts_ui_hqzb_zuojiezhi_01_001/texture/mqts_ui_hqzb_zuojiezhi_01_001_nor.tga
+data/source/npc/quest/mqts_ui_login_hlzs/ani/mqts_ui_login_hlzs_idle.ani
+data/source/npc/quest/mqts_ui_login_hlzs/mqts_ui_login_hlzs.mdl
+data/source/npc/quest/mqts_ui_login_hlzs/mqts_ui_login_hlzs.mesh
+data/source/npc/quest/mqts_ui_login_hlzs/mqts_ui_login_hlzs.mtl
+data/source/npc/quest/mqts_ui_login_hlzs/mqts_ui_login_hlzs.txt
+data/source/npc/quest/mqts_ui_login_hlzs/texture/mqts_ui_login_hlzs.tga
+data/source/npc/quest/mqts_ui_login_hlzs/texture/mqts_ui_login_hlzs_nor.tga
 data/source/npc/quest/mqts_ui_login_pohuaipinghengzhe/ani/mqts_ui_login_pohuaipinghengzhe_idle.ani
 data/source/npc/quest/mqts_ui_login_pohuaipinghengzhe/mqts_ui_login_pohuaipinghengzhe.mdl
 data/source/npc/quest/mqts_ui_login_pohuaipinghengzhe/mqts_ui_login_pohuaipinghengzhe.mesh
@@ -10979,8 +11035,12 @@ data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_001.mdl
 data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_001.mesh
 data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_001.mtl
 data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_001.txt
+data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_jin_001.mdl
+data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_jin_001.mesh
+data/source/npc/quest/mqts_ui_zb_yifu_01_001/mqts_ui_zb_yifu_01_jin_001.mtl
 data/source/npc/quest/mqts_ui_zb_yifu_01_001/texture/mqts_ui_zb_yifu_01_001.tga
 data/source/npc/quest/mqts_ui_zb_yifu_01_001/texture/mqts_ui_zb_yifu_01_001_nor.tga
+data/source/npc/quest/mqts_ui_zb_yifu_01_001/texture/mqts_ui_zb_yifu_01_jin_001.tga
 data/source/npc/quest/mqts_ui_zb_youjiezhi_01_001/ani/mqts_ui_zb_youjiezhi_01_001_idle.ani
 data/source/npc/quest/mqts_ui_zb_youjiezhi_01_001/mqts_ui_zb_youjiezhi_01_001.mdl
 data/source/npc/quest/mqts_ui_zb_youjiezhi_01_001/mqts_ui_zb_youjiezhi_01_001.mesh
@@ -11034,6 +11094,8 @@ data/source/npc/quest/mqts_ui_zl_lvlong_001/texture/mqts_ui_zl_lvlong_001_lan.tg
 data/source/npc/quest/mqts_ui_zl_lvlong_001/texture/mqts_ui_zl_lvlong_001_nor.tga
 data/source/npc/quest/mqts_w_mds_100_001/mqts_w_mds_100_001.mesh
 data/source/npc/quest/mqts_w_mds_100_001/mqts_w_mds_100_001.mtl
+data/source/npc/quest/mqts_w_mds_100_001/mqts_w_mds_100_001.txt
+data/source/npc/quest/mqts_w_mds_100_001/mqts_w_mds_100_002.mdl
 data/source/npc/quest/mqts_w_mds_100_001/texture/mqts_w_mds_100_001.tga
 data/source/npc/quest/mqts_w_mds_100_001/texture/mqts_w_mds_100_001_nor.tga
 data/source/npc/quest/mqts_w_mds_10_001/mqts_w_mds_10_001.mesh
@@ -11133,6 +11195,8 @@ data/source/npc/quest/mqts_w_mds_pifu_zuqiu_001/texture/mqts_w_mds_pifu_zuqiu_00
 data/source/npc/quest/mqts_w_mds_pifu_zuqiu_001/texture/mqts_w_mds_pifu_zuqiu_001_nor.tga
 data/source/npc/quest/mqts_w_qs_100_001/mqts_w_qs_100_001.mesh
 data/source/npc/quest/mqts_w_qs_100_001/mqts_w_qs_100_001.mtl
+data/source/npc/quest/mqts_w_qs_100_001/mqts_w_qs_100_001.txt
+data/source/npc/quest/mqts_w_qs_100_001/mqts_w_qs_100_002.mdl
 data/source/npc/quest/mqts_w_qs_100_001/texture/mqts_w_qs_100_001.tga
 data/source/npc/quest/mqts_w_qs_100_001/texture/mqts_w_qs_100_001_nor.tga
 data/source/npc/quest/mqts_w_qs_10_001/mqts_w_qs_10_001.mdl
@@ -11225,6 +11289,8 @@ data/source/npc/quest/mqts_w_sss_10_001/texture/mqts_w_sss_10_001.tga
 data/source/npc/quest/mqts_w_sss_10_001/texture/mqts_w_sss_10_001_nor.tga
 data/source/npc/quest/mqts_w_sss_110_001/mqts_w_sss_110_001.mesh
 data/source/npc/quest/mqts_w_sss_110_001/mqts_w_sss_110_001.mtl
+data/source/npc/quest/mqts_w_sss_110_001/mqts_w_sss_110_001.txt
+data/source/npc/quest/mqts_w_sss_110_001/mqts_w_sss_110_002.mdl
 data/source/npc/quest/mqts_w_sss_110_001/texture/mqts_w_sss_110_001.tga
 data/source/npc/quest/mqts_w_sss_110_001/texture/mqts_w_sss_110_001_nor.tga
 data/source/npc/quest/mqts_w_sss_120_001/mqts_w_sss_120_001.mesh
@@ -11931,7 +11997,12 @@ data/source/npc/quest/mqts_wing_pifu_14_001/mqts_wing_pifu_14_001.txt
 data/source/npc/quest/mqts_wing_pifu_14_001/mqts_wing_pifu_14_002.mdl
 data/source/npc/quest/mqts_wing_pifu_14_001/texture/mqts_wing_pifu_14_001.tga
 data/source/npc/quest/mqts_wing_pifu_14_001/texture/mqts_wing_pifu_14_001_nor.tga
+data/source/npc/quest/mqts_wing_pifu_15_001/mqts_wing_pifu_15_001.mesh
+data/source/npc/quest/mqts_wing_pifu_15_001/mqts_wing_pifu_15_001.mtl
+data/source/npc/quest/mqts_wing_pifu_15_001/mqts_wing_pifu_15_001.txt
 data/source/npc/quest/mqts_wing_pifu_15_001/mqts_wing_pifu_15_002.mdl
+data/source/npc/quest/mqts_wing_pifu_15_001/texture/mqts_wing_pifu_15_001.tga
+data/source/npc/quest/mqts_wing_pifu_15_001/texture/mqts_wing_pifu_15_001_nor.tga
 data/source/npc/quest/mqts_wing_pifu_16_001/ani/mqts_wing_pifu_16_001_idle.ani
 data/source/npc/quest/mqts_wing_pifu_16_001/ani/mqts_wing_pifu_16_001_run.ani
 data/source/npc/quest/mqts_wing_pifu_16_001/ani/mqts_wing_pifu_16_001_showtime01.ani
@@ -12678,6 +12749,12 @@ data/source/npc/quest/wqts_lingwu_04_001/wqts_lingwu_04_001.mdl
 data/source/npc/quest/wqts_lingwu_04_001/wqts_lingwu_04_001.mesh
 data/source/npc/quest/wqts_lingwu_04_001/wqts_lingwu_04_001.mtl
 data/source/npc/quest/wqts_lingwu_04_001/wqts_lingwu_04_001.txt
+data/source/npc/quest/wqts_lingwu_05_001/texture/wqts_lingwu_05_001.tga
+data/source/npc/quest/wqts_lingwu_05_001/texture/wqts_lingwu_05_001_nor.tga
+data/source/npc/quest/wqts_lingwu_05_001/wqts_lingwu_05_001.mdl
+data/source/npc/quest/wqts_lingwu_05_001/wqts_lingwu_05_001.mesh
+data/source/npc/quest/wqts_lingwu_05_001/wqts_lingwu_05_001.mtl
+data/source/npc/quest/wqts_lingwu_05_001/wqts_lingwu_05_001.txt
 data/source/npc/quest/wqts_new_jingling_01_001/ani/wqts_new_jingling_01_001_idle.ani
 data/source/npc/quest/wqts_new_jingling_01_001/ani/wqts_new_jingling_01_001_run.ani
 data/source/npc/quest/wqts_new_jingling_01_001/ani/wqts_new_jingling_01_001_showtime01.ani
@@ -13904,6 +13981,8 @@ data/source/player/mqts_mds_10_001/mqts_mds_pifu_batongtianxia_001.mesh
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_batongtianxia_001.mtl
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_chonglangyongzhe_001.mesh
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_chonglangyongzhe_001.mtl
+data/source/player/mqts_mds_10_001/mqts_mds_pifu_chonglangyongzhe_001_lan.mesh
+data/source/player/mqts_mds_10_001/mqts_mds_pifu_chonglangyongzhe_001_lan.mtl
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_getelifu_001.mesh
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_getelifu_001.mtl
 data/source/player/mqts_mds_10_001/mqts_mds_pifu_hunsha_001.mesh
@@ -13950,6 +14029,7 @@ data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_anyegongjue_001_nor.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_batongtianxia_001.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_batongtianxia_001_liu.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_chonglangyongzhe_001.tga
+data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_chonglangyongzhe_001_lan.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_chonglangyongzhe_001_nor.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_chonglangyongzhe_liu.tga
 data/source/player/mqts_mds_10_001/texture/mqts_mds_pifu_getelifu_001.tga
@@ -14065,6 +14145,10 @@ data/source/player/mqts_qs_10_001/mqts_qs_pifu_gedouyingjia_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_gedouyingjia_001.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_getelifu_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_getelifu_001.mtl
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_huangdiwanghou_001.mesh
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_huangdiwanghou_001.mtl
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_hunsha_001.mesh
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_hunsha_001.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_jinyiwei_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_jinyiwei_001.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_langmanzhilu_001.mesh
@@ -14076,6 +14160,8 @@ data/source/player/mqts_qs_10_001/mqts_qs_pifu_longqizhanjiang_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_longqizhanjiang_001.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_longyinganzhu_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_longyinganzhu_001.mtl
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_wangquanguizu_001_hei.mesh
+data/source/player/mqts_qs_10_001/mqts_qs_pifu_wangquanguizu_001_hei.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_wudishangjiang_001.mesh
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_wudishangjiang_001.mtl
 data/source/player/mqts_qs_10_001/mqts_qs_pifu_xinnian_001_baijin.mesh
@@ -14126,6 +14212,12 @@ data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_gedouyingjia_001_nor.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_getelifu_001.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_getelifu_001_nor.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_haizei_001_liu.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_huangdiwanghou_001.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_huangdiwanghou_001_liu.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_huangdiwanghou_001_nor.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_hunsha_001.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_hunsha_001_liu.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_hunsha_001_nor.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_jinyiwei_001.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_jinyiwei_001_liu.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_jinyiwei_001_nor.tga
@@ -14139,6 +14231,9 @@ data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_longqizhanjiang_001_nor.t
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_longyinganzhu_001.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_longyinganzhu_001_liu.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_longyinganzhu_001_nor.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_wangquanguizu_001_hei.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_wangquanguizu_001_liu.tga
+data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_wangquanguizu_001_nor.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_wudishangjiang_001.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_wudishangjiang_001_nor.tga
 data/source/player/mqts_qs_10_001/texture/mqts_qs_pifu_xinnian_001_baijin.tga
@@ -14828,8 +14923,10 @@ i18n/en-us/ui/icon/gem/icon_gem_life_01.tga
 i18n/en-us/ui/icon/gem/icon_gem_life_02.tga
 i18n/en-us/ui/icon/gem/icon_gem_life_03.tga
 i18n/en-us/ui/icon/gem/icon_gem_life_04.tga
+i18n/en-us/ui/icon/gem/icon_gem_life_05.tga
 i18n/en-us/ui/icon/gem/icon_gem_life_06.tga
 i18n/en-us/ui/icon/gem/icon_gem_life_07.tga
+i18n/en-us/ui/icon/gem/icon_gem_life_09.tga
 i18n/en-us/ui/icon/gem/icon_gem_shield_01.tga
 i18n/en-us/ui/icon/gem/icon_gem_shield_02.tga
 i18n/en-us/ui/icon/gem/icon_gem_shield_03.tga
@@ -14997,6 +15094,7 @@ i18n/en-us/ui/icon/title/c_baijinzunzhe.tga
 i18n/en-us/ui/icon/title/c_ch_wzbf.tga
 i18n/en-us/ui/icon/title/c_ch_zcsh.tga
 i18n/en-us/ui/icon/title/c_gangtieyingxiong.tga
+i18n/en-us/ui/icon/title/c_huangchengbazhu.tga
 i18n/en-us/ui/icon/title/c_laiqurufeng.tga
 i18n/en-us/ui/icon/title/c_pohuaipinghengzhe.tga
 i18n/en-us/ui/icon/title/c_qz.tga
@@ -15141,6 +15239,7 @@ i18n/en-us/ui/texture/ext/font/ts_extobject_pet_name3.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_pet_name4.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_pet_name5.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_pet_name6.tga
+i18n/en-us/ui/texture/ext/font/ts_extobject_pet_name7.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_wing_name1.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_wing_name2.tga
 i18n/en-us/ui/texture/ext/font/ts_extobject_wing_name3.tga
@@ -15166,6 +15265,7 @@ i18n/en-us/ui/texture/ext/head_font/ts_extobject_shenyin_name1.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_shenyin_name2.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_shenyin_name3.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_shenyin_name4.tga
+i18n/en-us/ui/texture/ext/head_font/ts_extobject_shenyin_name5.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_suparsb_name1.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_suparsb_name2.tga
 i18n/en-us/ui/texture/ext/head_font/ts_extobject_tuteng_name1.tga
@@ -15222,6 +15322,7 @@ i18n/en-us/ui/texture/font/achievetitle/f_ch_hfrg.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_hlsj.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_hqzx.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_htpd.tga
+i18n/en-us/ui/texture/font/achievetitle/f_ch_huangchengbazhu.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_huashenweilong.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_hylz.tga
 i18n/en-us/ui/texture/font/achievetitle/f_ch_hynh.tga
@@ -15394,8 +15495,16 @@ i18n/en-us/ui/texture/font/achievetitle/i_ch_zyfx.tga
 i18n/en-us/ui/texture/font/achievetitle/i_jifenglieren.tga
 i18n/en-us/ui/texture/font/achievetitle/i_zhizunlieren.tga
 i18n/en-us/ui/texture/font/achievetitle/ts_head_jqboss.tga
+i18n/en-us/ui/texture/font/activities/activities_dw_czjl_h.tga
+i18n/en-us/ui/texture/font/activities/activities_dw_czjl_n.tga
+i18n/en-us/ui/texture/font/activities/activities_hefu_hefulibao_h.tga
+i18n/en-us/ui/texture/font/activities/activities_hefu_hefulibao_n.tga
+i18n/en-us/ui/texture/font/activities/activities_hefu_hefuzhuanpan_h.tga
+i18n/en-us/ui/texture/font/activities/activities_hefu_hefuzhuanpan_n.tga
 i18n/en-us/ui/texture/font/activities/activities_hefu_xiaoechongzhi_h.tga
 i18n/en-us/ui/texture/font/activities/activities_hefu_xiaoechongzhi_n.tga
+i18n/en-us/ui/texture/font/activities/activities_kf_jzhc_h.tga
+i18n/en-us/ui/texture/font/activities/activities_kf_jzhc_n.tga
 i18n/en-us/ui/texture/font/activities/activities_kf_kflc_h.tga
 i18n/en-us/ui/texture/font/activities/activities_kf_kflc_n.tga
 i18n/en-us/ui/texture/font/activities/activities_tz_yktz_n.tga
@@ -15408,8 +15517,14 @@ i18n/en-us/ui/texture/font/activities/activities_zm_czjl_h.tga
 i18n/en-us/ui/texture/font/activities/activities_zm_czjl_n.tga
 i18n/en-us/ui/texture/font/activities/activities_zm_czzk_h.tga
 i18n/en-us/ui/texture/font/activities/activities_zm_czzk_n.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_dljl_h.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_dljl_n.tga
 i18n/en-us/ui/texture/font/activities/activities_zm_tsjb_h.tga
 i18n/en-us/ui/texture/font/activities/activities_zm_tsjb_n.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_xfdf_h.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_xfdf_n.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_xylb_h.tga
+i18n/en-us/ui/texture/font/activities/activities_zm_xylb_n.tga
 i18n/en-us/ui/texture/font/activities/activities_zmkh_xfzp_h.tga
 i18n/en-us/ui/texture/font/activities/activities_zmkh_xfzp_n.tga
 i18n/en-us/ui/texture/font/activities/b_hfhd_kaishid.tga
@@ -15422,6 +15537,9 @@ i18n/en-us/ui/texture/font/activities/f_ad_gaopinzhidiaowen.tga
 i18n/en-us/ui/texture/font/activities/f_ad_gaopinzhimingwen.tga
 i18n/en-us/ui/texture/font/activities/f_baozangdafangsong.tga
 i18n/en-us/ui/texture/font/activities/f_bsqd_czdf_czjbd.tga
+i18n/en-us/ui/texture/font/activities/f_bsqd_xfdf_xfjbdem.tga
+i18n/en-us/ui/texture/font/activities/f_bsqd_xfdf_xfjbdsm.tga
+i18n/en-us/ui/texture/font/activities/f_bsqd_xfdf_xfjbdym.tga
 i18n/en-us/ui/texture/font/activities/f_cangbaoge.tga
 i18n/en-us/ui/texture/font/activities/f_enter_hw.tga
 i18n/en-us/ui/texture/font/activities/f_enter_hwqd.tga
@@ -15455,6 +15573,8 @@ i18n/en-us/ui/texture/font/activities/f_kfhd_dwxb_h.tga
 i18n/en-us/ui/texture/font/activities/f_kfhd_dwxb_n.tga
 i18n/en-us/ui/texture/font/activities/f_kfhd_mwxb_h.tga
 i18n/en-us/ui/texture/font/activities/f_kfhd_mwxb_n.tga
+i18n/en-us/ui/texture/font/activities/f_kfhd_slxs_h.tga
+i18n/en-us/ui/texture/font/activities/f_kfhd_slxs_n.tga
 i18n/en-us/ui/texture/font/activities/f_kfhd_zmcg_h.tga
 i18n/en-us/ui/texture/font/activities/f_mayabaohe_jrkgm.tga
 i18n/en-us/ui/texture/font/activities/f_pb_font_jl1.tga
@@ -15479,7 +15599,12 @@ i18n/en-us/ui/texture/font/activities/f_yyth_title.tga
 i18n/en-us/ui/texture/font/activities/f_zmkh_chaozhidalibao.tga
 i18n/en-us/ui/texture/font/activities/f_zmkh_chongzhi.tga
 i18n/en-us/ui/texture/font/activities/f_zmkh_jinbiyouli.tga
+i18n/en-us/ui/texture/font/activities/f_zmkh_jrdlklq.tga
+i18n/en-us/ui/texture/font/activities/f_zmkh_kai.tga
+i18n/en-us/ui/texture/font/activities/f_zmkh_msz03.tga
+i18n/en-us/ui/texture/font/activities/f_zmkh_xykhl.tga
 i18n/en-us/ui/texture/font/activities/i_jbfb_jingxifanbei.tga
+i18n/en-us/ui/texture/font/activities/ts_activities_bg_jzhc.tga
 i18n/en-us/ui/texture/font/activities/ts_activities_biaoqian_mrzk_5zhe.tga
 i18n/en-us/ui/texture/font/activities/ts_activities_biaoqian_mrzk_6zhe.tga
 i18n/en-us/ui/texture/font/activities/ts_activities_biaoqian_mrzk_7zhe.tga
@@ -15488,6 +15613,16 @@ i18n/en-us/ui/texture/font/activities/ts_activities_firsttopup_getimg.tga
 i18n/en-us/ui/texture/font/activities/ts_activities_ylq.tga
 i18n/en-us/ui/texture/font/activities/ts_dailytopup_panel_jrcz.tga
 i18n/en-us/ui/texture/font/activities/ts_firsttopup_tip_s.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_font1.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_font4.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_font6.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_font7.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_icon1.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_icon2.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_icon3.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_icon4.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_jbljyy.tga
+i18n/en-us/ui/texture/font/activities/ts_kflb_zx.tga
 i18n/en-us/ui/texture/font/activities/ts_kflc_jbkl.tga
 i18n/en-us/ui/texture/font/activities/ts_kflc_ljcz.tga
 i18n/en-us/ui/texture/font/activities/ts_luckturntable_btnd.tga
@@ -15625,6 +15760,7 @@ i18n/en-us/ui/texture/font/angle/ts_xianshi.tga
 i18n/en-us/ui/texture/font/banner/f_bzsl_banner.tga
 i18n/en-us/ui/texture/font/banner/f_zmkh_qddkh.tga
 i18n/en-us/ui/texture/font/banner/i_bsqd_xfdf_bg.tga
+i18n/en-us/ui/texture/font/banner/i_i_hfhd_xuanhcuantu .tga
 i18n/en-us/ui/texture/font/banner/tab_activities_banner_kflc.tga
 i18n/en-us/ui/texture/font/battle/ts_generalbattle.tga
 i18n/en-us/ui/texture/font/battle/ts_smallbattle.tga
@@ -15845,6 +15981,7 @@ i18n/en-us/ui/texture/font/btn_font/f_b2_lijigoumai.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_lijilingqu.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_lingqujiangli1.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_lingqujiangli2.tga
+i18n/en-us/ui/texture/font/btn_font/f_b2_qianwangcanyu.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_qianwangrenwu.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_queding.tga
 i18n/en-us/ui/texture/font/btn_font/f_b2_wanchengzhuanzhi.tga
@@ -16705,6 +16842,7 @@ i18n/en-us/ui/texture/font/strengthen/f_zhanwen_diaozhui.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_fuwuqi.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_toukui.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_xianglian.tga
+i18n/en-us/ui/texture/font/strengthen/f_zhanwen_yaodai.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_yifu.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_youjie.tga
 i18n/en-us/ui/texture/font/strengthen/f_zhanwen_zhuwuqi.tga
@@ -16742,6 +16880,7 @@ i18n/en-us/ui/texture/font/title/f_jrhd_title_sss.tga
 i18n/en-us/ui/texture/font/title/f_lzfl_chibangfuli.tga
 i18n/en-us/ui/texture/font/title/f_lzfl_tujianfuli.tga
 i18n/en-us/ui/texture/font/title/f_tetie_hecheng.tga
+i18n/en-us/ui/texture/font/title/f_tilte_hefyhuodongl.tga
 i18n/en-us/ui/texture/font/title/f_tite_furnace_zbhs.tga
 i18n/en-us/ui/texture/font/title/f_tite_jiaoyi.tga
 i18n/en-us/ui/texture/font/title/f_tite_jineng.tga
@@ -27068,6 +27207,7 @@ ui/icon/ext/item/icon_pf_cb_guangsuchuansuo.tga
 ui/icon/ext/item/icon_pf_cb_hongfenjiaren.tga
 ui/icon/ext/item/icon_pf_cb_huanhainingguang.tga
 ui/icon/ext/item/icon_pf_cb_huoliquankai.tga
+ui/icon/ext/item/icon_pf_cb_jijiazuzhuang.tga
 ui/icon/ext/item/icon_pf_cb_jinhuigangyi.tga
 ui/icon/ext/item/icon_pf_cb_jiujijiguang.tga
 ui/icon/ext/item/icon_pf_cb_kuanghuanshengyan.tga
@@ -27101,6 +27241,7 @@ ui/icon/ext/item/icon_pf_cb_yushenzhiwu.tga
 ui/icon/ext/item/icon_pf_cb_zhengqipengke.tga
 ui/icon/ext/item/icon_pf_cb_zhengqishidai.tga
 ui/icon/ext/item/icon_pf_cbsp_huoliquankai.tga
+ui/icon/ext/item/icon_pf_cbsp_jijiazuzhuang.tga
 ui/icon/ext/item/icon_pf_cbsp_jinglingshenyu.tga
 ui/icon/ext/item/icon_pf_cbsp_tamafeiyan.tga
 ui/icon/ext/item/icon_pf_cbsp_tiankongwangzhe.tga
@@ -27114,6 +27255,7 @@ ui/icon/ext/item/icon_pf_fq_miusizhiling.tga
 ui/icon/ext/item/icon_pf_fq_shengguangshouhu.tga
 ui/icon/ext/item/icon_pf_fq_shenglinglongzhu.tga
 ui/icon/ext/item/icon_pf_fq_shenglinglvguang.tga
+ui/icon/ext/item/icon_pf_fq_shenyuanmolu.tga
 ui/icon/ext/item/icon_pf_fq_shuixianshendeng.tga
 ui/icon/ext/item/icon_pf_fq_xingkongmojing.tga
 ui/icon/ext/item/icon_pf_fssb_anyegongjue.tga
@@ -27140,6 +27282,7 @@ ui/icon/ext/item/icon_pf_sssb_xingjizhanshi.tga
 ui/icon/ext/item/icon_pf_sssb_yingxiongxueyuan.tga
 ui/icon/ext/item/icon_pf_sssbsp_meilizhixing.tga
 ui/icon/ext/item/icon_pf_zq_bingjingxuanlong.tga
+ui/icon/ext/item/icon_pf_zq_buchaqianer.tga
 ui/icon/ext/item/icon_pf_zq_chilingshenniao.tga
 ui/icon/ext/item/icon_pf_zq_feicuijinlong.tga
 ui/icon/ext/item/icon_pf_zq_feiherumeng.tga
@@ -27157,6 +27300,7 @@ ui/icon/ext/item/icon_pf_zq_wuyeguiqi.tga
 ui/icon/ext/item/icon_pf_zq_xingkongzhanjian.tga
 ui/icon/ext/item/icon_pf_zq_yunxiaofeiche.tga
 ui/icon/ext/item/icon_pf_zq_zhanzhenghaojiao.tga
+ui/icon/ext/item/icon_pf_zq_ziranzhixin.tga
 ui/icon/ext/item/icon_pf_zqsp_bingjingxuanlong.tga
 ui/icon/ext/item/icon_pf_zqsp_huofengliaoyuan.tga
 ui/icon/ext/item/icon_pf_zqsp_qiyizhanche.tga
@@ -27195,6 +27339,7 @@ ui/icon/ext/item/icon_superweapon2_sj.tga
 ui/icon/ext/item/icon_superweapon2_sx.tga
 ui/icon/ext/item/icon_superweapon3_sj.tga
 ui/icon/ext/item/icon_superweapon3_sx.tga
+ui/icon/ext/item/icon_superweapon4_sj.tga
 ui/icon/ext/item/icon_superweapon4_sx.tga
 ui/icon/ext/item/icon_wing_dt_equip01.tga
 ui/icon/ext/item/icon_wing_dt_equip02.tga
@@ -28112,6 +28257,7 @@ ui/icon/skill/rune/ts_sss_num6_icon3.tga
 ui/icon/title/c_baijinzunzhe.tga
 ui/icon/title/c_baofengzhuzhai.tga
 ui/icon/title/c_bhzf_ybdt.tga
+ui/icon/title/c_ch_di.tga
 ui/icon/title/c_ch_dlh.tga
 ui/icon/title/c_ch_fkdg.tga
 ui/icon/title/c_ch_sjhs.tga
@@ -28120,6 +28266,8 @@ ui/icon/title/c_ch_xmwl_sshl.tga
 ui/icon/title/c_ch_ysjdm.tga
 ui/icon/title/c_ch_zqsd.tga
 ui/icon/title/c_dsmy_fhjd.tga
+ui/icon/title/c_lyfj.tga
+ui/icon/title/c_nssdj_gsycl.tga
 ui/icon/title/c_pohuaipinghengzhe.tga
 ui/icon/title/c_qgjc_bwbj.tga
 ui/icon/title/c_qingning.tga
@@ -28138,6 +28286,7 @@ ui/icon/title/i_nssy_zjcm.tga
 ui/icon/title/i_qmzj.tga
 ui/icon/title/i_tzyq_btqj.tga
 ui/icon/title/i_wdtx.tga
+ui/icon/title/i_wyzttyw.tga
 ui/icon/title/icon_ch_shen.tga
 ui/icon/title/icon_hcbx.tga
 ui/icon/title/icon_mftd.tga
@@ -28162,6 +28311,7 @@ ui/icon/zhanwen/a_zhanwen_gongfangjianbei03.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_02.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_03.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_04.tga
+ui/icon/zhanwen/a_zhanwen_wanjianchuanxin02.tga
 ui/icon/zhanwen/a_zhanwen_wanjianchuanxin03.tga
 ui/icon/zhanwen/a_zhanwen_zhimingyiji02.tga
 ui/icon/zhanwen/a_zhanwen_zhimingyiji03.tga
@@ -28880,9 +29030,11 @@ ui/texture/font/flag/nationbanner_asia_9_s.tga
 ui/texture/font/flag/nationbanner_europe_17_s.tga
 ui/texture/font/flag/nationbanner_europe_19_s.tga
 ui/texture/font/flag/nationbanner_europe_22_s.tga
+ui/texture/font/flag/nationbanner_europe_27_s.tga
 ui/texture/font/flag/nationbanner_europe_2_s.tga
 ui/texture/font/flag/nationbanner_europe_31_s.tga
 ui/texture/font/flag/nationbanner_europe_37_s.tga
+ui/texture/font/flag/nationbanner_europe_38_s.tga
 ui/texture/font/flag/nationbanner_europe_3_s.tga
 ui/texture/font/flag/nationbanner_europe_40_s.tga
 ui/texture/font/flag/nationbanner_europe_47_s.tga
@@ -29369,6 +29521,7 @@ ui/texture/font/number/f_pxxt_zs_8.tga
 ui/texture/font/number/f_pxxt_zs_9.tga
 ui/texture/font/number/f_sd_0.tga
 ui/texture/font/number/f_sd_1.tga
+ui/texture/font/number/f_sd_2.tga
 ui/texture/font/number/f_txz_number_0.tga
 ui/texture/font/number/f_txz_number_1.tga
 ui/texture/font/number/f_txz_number_2.tga
@@ -29401,6 +29554,7 @@ ui/texture/font/number/money_num2.tga
 ui/texture/font/number/money_num3.tga
 ui/texture/font/number/money_num4.tga
 ui/texture/font/number/money_num5.tga
+ui/texture/font/number/money_num8.tga
 ui/texture/font/number/self_dmg_num0.tga
 ui/texture/font/number/self_dmg_num1.tga
 ui/texture/font/number/self_dmg_num2.tga
@@ -30120,6 +30274,7 @@ ui/texture/movie/qts_ui_seal_2.webp
 ui/texture/movie/qts_ui_seal_3.webp
 ui/texture/movie/qts_ui_seal_4.webp
 ui/texture/movie/qts_ui_shengqi_star.webp
+ui/texture/movie/qts_ui_ss_cs.webp
 ui/texture/movie/qts_ui_ss_zs.webp
 ui/texture/movie/qts_ui_strengthen_fire.webp
 ui/texture/movie/qts_ui_strengthen_fire1.webp
@@ -30177,6 +30332,7 @@ ui/texture/movie/sj_xj_cz.webp
 ui/texture/movie/sj_xj_cz03_.webp
 ui/texture/movie/skill_blue_ball.webp
 ui/texture/movie/skill_red_ball.webp
+ui/texture/movie/ts_kflb_select.webp
 ui/texture/movie/ui_qts_lieyanmoqiang.webp
 ui/texture/other/activities/f_zmkh_huanlekuanghai_kuang03.tga
 ui/texture/other/activities/f_zqth_dk.tga
@@ -30243,10 +30399,15 @@ ui/texture/other/activities/i_xunbao_xiaokuangti_01.tga
 ui/texture/other/activities/i_xunbao_xiaokuangti_02.tga
 ui/texture/other/activities/i_ylgz_banner.tga
 ui/texture/other/activities/i_zmkh_bg.tga
+ui/texture/other/activities/i_zmkh_kuangti.tga
+ui/texture/other/activities/i_zmkh_xydl_bg02.tga
 ui/texture/other/activities/icon_tssy_dangao_l.tga
+ui/texture/other/activities/tab_activities_bg_kflb.tga
 ui/texture/other/activities/tab_activities_tz_xdk.tga
 ui/texture/other/activities/ts_activities_bg_mrzk.tga
 ui/texture/other/activities/ts_activities_firsttopup_bg.tga
+ui/texture/other/activities/ts_activities_jpbn_namebg1.tga
+ui/texture/other/activities/ts_activities_jpbn_reward1.tga
 ui/texture/other/activities/ts_activities_jpbnwz_topbg.tga
 ui/texture/other/activities/ts_dailytopup_panel_bg.tga
 ui/texture/other/activities/ts_firsttopup_tipbg.tga
@@ -30580,6 +30741,7 @@ ui/texture/other/bg/i_zsbk_bg.tga
 ui/texture/other/bg/tab_mhzz_battle_bg.tga
 ui/texture/other/bg/ts_achievement_title_bg.tga
 ui/texture/other/bg/ts_achievement_title_bg_bjta.tga
+ui/texture/other/bg/ts_activities_jpbn_bg.tga
 ui/texture/other/bg/ts_add_bg.tga
 ui/texture/other/bg/ts_angelgrowth_bg.tga
 ui/texture/other/bg/ts_angelgrowth_bg2.tga
@@ -30953,6 +31115,7 @@ ui/texture/other/extobject/i_hx_sb1.tga
 ui/texture/other/extobject/i_hx_sb2.tga
 ui/texture/other/extobject/i_hx_skin1.tga
 ui/texture/other/extobject/i_hx_skin2.tga
+ui/texture/other/extobject/i_hx_sw1.tga
 ui/texture/other/extobject/i_hx_sw2.tga
 ui/texture/other/extobject/i_hx_sy1.tga
 ui/texture/other/extobject/i_hx_sy2.tga
@@ -31728,10 +31891,12 @@ ui/texture/other/zhanlong/c_zl_hl.tga
 ui/texture/other/zhanlong/c_zl_jns1.tga
 ui/texture/other/zhanlong/c_zl_jns2.tga
 ui/texture/other/zhanlong/c_zl_jns3-1.tga
+ui/texture/other/zhanlong/c_zl_jns3-2.tga
 ui/texture/other/zhanlong/c_zl_jns3-3.tga
 ui/texture/other/zhanlong/c_zl_jns3-4.tga
 ui/texture/other/zhanlong/c_zl_jns3-5.tga
 ui/texture/other/zhanlong/c_zl_jns4-1.tga
+ui/texture/other/zhanlong/c_zl_jns4-2.tga
 ui/texture/other/zhanlong/c_zl_jns4-3.tga
 ui/texture/other/zhanlong/c_zl_jns4-4.tga
 ui/texture/other/zhanlong/c_zl_jns4-5.tga
@@ -31742,6 +31907,7 @@ ui/texture/other/zhanlong/c_zl_mq1.tga
 ui/texture/other/zhanlong/c_zl_mq2.tga
 ui/texture/other/zhanlong/c_zl_mq3.tga
 ui/texture/other/zhanlong/c_zl_mq4.tga
+ui/texture/other/zhanlong/c_zl_mq5.tga
 ui/texture/other/zhanlong/c_zl_ndhg.tga
 ui/texture/other/zhanlong/c_zl_sj1.tga
 ui/texture/other/zhanlong/c_zl_sj2.tga
@@ -31752,6 +31918,7 @@ ui/texture/other/zhanlong/c_zl_sl1.tga
 ui/texture/other/zhanlong/c_zl_sl2.tga
 ui/texture/other/zhanlong/c_zl_sl3.tga
 ui/texture/other/zhanlong/c_zl_sl4.tga
+ui/texture/other/zhanlong/c_zl_sl5.tga
 ui/texture/other/zhanlong/c_zl_xt1.tga
 ui/texture/other/zhanlong/c_zl_xt2.tga
 ui/texture/other/zhanlong/c_zl_xt3.tga
@@ -31793,6 +31960,7 @@ ui/texture/pat_face/ts_1102_active2.jpg
 ui/texture/pat_face/ts_1102_active3.jpg
 ui/texture/pat_face/ts_1102_active4.jpg
 ui/texture/pat_face/ts_1116_active1.jpg
+ui/texture/pat_face/ts_1116_active2.jpg
 ui/texture/s_skill/dts.tga
 ui/texture/s_skill/mhts.tga
 ui/texture/s_skill/wusha.tga
