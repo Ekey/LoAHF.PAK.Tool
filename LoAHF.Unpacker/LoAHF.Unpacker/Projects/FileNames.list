@@ -16137,13 +16137,19 @@ i18n/en-us/ui/texture/font/challenge_start/challenge_start_1.tga
 i18n/en-us/ui/texture/font/challenge_start/challenge_start_2.tga
 i18n/en-us/ui/texture/font/challenge_start/challenge_start_3.tga
 i18n/en-us/ui/texture/font/changejob/c_shuxing.tga
+i18n/en-us/ui/texture/font/changejob/f_zz8_tuyuansu.tga
 i18n/en-us/ui/texture/font/changejob/f_zz_jinengfuewn_big.tga
 i18n/en-us/ui/texture/font/changejob/f_zz_jinengfuewn_small.tga
 i18n/en-us/ui/texture/font/changejob/f_zz_monongshendian.tga
+i18n/en-us/ui/texture/font/changejob/f_zz_shenglingsheshou.tga
 i18n/en-us/ui/texture/font/changejob/f_zz_shenzhuangshouji.tga
+i18n/en-us/ui/texture/font/changejob/i_zz8_fengyuansu.tga
+i18n/en-us/ui/texture/font/changejob/i_zz8_huoyuansu.tga
+i18n/en-us/ui/texture/font/changejob/i_zz8_shuiyuansu.tga
 i18n/en-us/ui/texture/font/changejob/ts_changejob_leveln10.tga
 i18n/en-us/ui/texture/font/changejob/ts_changejob_leveln15.tga
 i18n/en-us/ui/texture/font/changejob/ts_changejob_leveln17.tga
+i18n/en-us/ui/texture/font/changejob/ts_changejob_leveln24.tga
 i18n/en-us/ui/texture/font/changejob/ts_changejob_leveln4.tga
 i18n/en-us/ui/texture/font/changejob/ts_changejob_zzcg.tga
 i18n/en-us/ui/texture/font/combine/f_hc_hechengyulan.tga
@@ -16556,6 +16562,7 @@ i18n/en-us/ui/texture/font/main_icon/center_font/f_ente_wzzl.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_ente_zl.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_baonutehui.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_baoshifuli.tga
+i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_bazhuan.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_beibao.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_cangbaoge.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_chibang.tga
@@ -17071,6 +17078,7 @@ i18n/en-us/ui/texture/font/title/f_title_zhanwen_zhuanpan.tga
 i18n/en-us/ui/texture/font/title/f_title_zhaunzhi.tga
 i18n/en-us/ui/texture/font/title/f_title_zhoumokuanghuanda.tga
 i18n/en-us/ui/texture/font/title/f_title_zhuangbei.tga
+i18n/en-us/ui/texture/font/title/f_title_zhuanzhi_qi.tga
 i18n/en-us/ui/texture/font/title/f_title_zhushenbaoku.tga
 i18n/en-us/ui/texture/font/title/f_title_zudui.tga
 i18n/en-us/ui/texture/font/title/f_title_zuduishenqing.tga
@@ -28473,6 +28481,7 @@ ui/icon/yiwu/icon_pf_sgyw_wdfe4.tga
 ui/icon/yiwu/icon_pf_sgyw_zise.tga
 ui/icon/zhanwen/a_zhanwen_gongfangjianbei02.tga
 ui/icon/zhanwen/a_zhanwen_gongfangjianbei03.tga
+ui/icon/zhanwen/a_zhanwen_gongfangjianbei04.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_02.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_03.tga
 ui/icon/zhanwen/a_zhanwen_putong_kuang_04.tga
@@ -29458,6 +29467,7 @@ ui/texture/font/main_icon/center_icon/c_enter_wsj.tga
 ui/texture/font/main_icon/center_icon/c_enter_wzzl.tga
 ui/texture/font/main_icon/center_icon/c_enter_xingyunshu.tga
 ui/texture/font/main_icon/center_icon/c_enter_xunbao.tga
+ui/texture/font/main_icon/center_icon/c_enter_xxmm.tga
 ui/texture/font/main_icon/center_icon/c_enter_yhj.tga
 ui/texture/font/main_icon/center_icon/c_enter_yijianfankui.tga
 ui/texture/font/main_icon/center_icon/c_enter_yinseqingrenjie.tga
@@ -30443,6 +30453,7 @@ ui/texture/movie/qts_ui_pxxt_jj_tsczd01.webp
 ui/texture/movie/qts_ui_pxxt_ts01.webp
 ui/texture/movie/qts_ui_pxxt_ts02.webp
 ui/texture/movie/qts_ui_pxxt_ts03.webp
+ui/texture/movie/qts_ui_qizhuan.webp
 ui/texture/movie/qts_ui_rank_light.webp
 ui/texture/movie/qts_ui_recovery_bg.webp
 ui/texture/movie/qts_ui_recovery_perform.webp
@@ -30497,6 +30508,7 @@ ui/texture/movie/qts_ui_yindao_levelup.webp
 ui/texture/movie/qts_ui_yindao_maopao1.webp
 ui/texture/movie/qts_ui_yindao_maopao2.webp
 ui/texture/movie/qts_ui_zhousiquanzhang.webp
+ui/texture/movie/qts_ui_zhuanzhi_jihuo.webp
 ui/texture/movie/qts_ui_zhuanzhi_light.webp
 ui/texture/movie/qts_ui_zhuanzhi_loop.webp
 ui/texture/movie/qts_ui_zhuanzhi_shengji.webp
@@ -31114,6 +31126,8 @@ ui/texture/other/btn/i_wanzhuan_tianshudi01.tga
 ui/texture/other/btn/i_wanzhuan_tianshudi02.tga
 ui/texture/other/btn/i_youhunzhita_wenzidi.tga
 ui/texture/other/btn/i_youhunzhita_wenzidi02.tga
+ui/texture/other/btn/i_zz_gantanhao.tga
+ui/texture/other/btn/i_zz_guanbi.tga
 ui/texture/other/btn/icon_tongxingzheng_genhuan.tga
 ui/texture/other/btn/icon_tongxingzheng_shengxing.tga
 ui/texture/other/btn/ta_tong_btn.tga
@@ -31223,6 +31237,25 @@ ui/texture/other/btn/ts_xyzp_btn_n.tga
 ui/texture/other/btn/y_skillbar_point bgd.tga
 ui/texture/other/btn/y_skillbar_point bgh.tga
 ui/texture/other/btn/y_skillbar_point bgn.tga
+ui/texture/other/changejob/i_zhuanzhi3_lianxian1.tga
+ui/texture/other/changejob/i_zhuanzhi3_lianxian2.tga
+ui/texture/other/changejob/i_zz8_feng.tga
+ui/texture/other/changejob/i_zz8_feng02.tga
+ui/texture/other/changejob/i_zz8_feng03.tga
+ui/texture/other/changejob/i_zz8_feng1.tga
+ui/texture/other/changejob/i_zz8_feng2.tga
+ui/texture/other/changejob/i_zz8_huo01.tga
+ui/texture/other/changejob/i_zz8_shui01.tga
+ui/texture/other/changejob/i_zz8_tu01.tga
+ui/texture/other/changejob/i_zz8_xhuanzhong1.tga
+ui/texture/other/changejob/i_zz_bantouming_di.tga
+ui/texture/other/changejob/i_zz_huanwen.tga
+ui/texture/other/changejob/i_zz_jindutia_di.tga
+ui/texture/other/changejob/i_zz_kuangti.tga
+ui/texture/other/changejob/i_zz_touxianxitong.tga
+ui/texture/other/changejob/i_zz_wenzi_di.tga
+ui/texture/other/changejob/i_zz_wenzi_di2.tga
+ui/texture/other/changejob/i_zz_wenzi_xian.tga
 ui/texture/other/changejob/mb/i_zz_pintu_hong1.area
 ui/texture/other/changejob/mb/i_zz_pintu_hong2.area
 ui/texture/other/changejob/mb/i_zz_pintu_hong3.area
@@ -32045,6 +32078,11 @@ ui/texture/other/vip/ts_vip_line2.tga
 ui/texture/other/vip/ts_vip_line3.tga
 ui/texture/other/vip/ts_vip_titlebg.tga
 ui/texture/other/vip/ts_vip_topbg.tga
+ui/texture/other/wnd/i_zz_piaodai_tou1.tga
+ui/texture/other/wnd/i_zz_piaodai_tou2.tga
+ui/texture/other/wnd/i_zz_piaodai_you.tga
+ui/texture/other/wnd/i_zz_piaodai_zuo.tga
+ui/texture/other/wnd/i_zz_yangpijuanbg.tga
 ui/texture/other/wnd/ts_battlefield_remotearena_bg.tga
 ui/texture/other/wnd/ts_topbg.tga
 ui/texture/other/wnd/ts_wnd1_1.tga
