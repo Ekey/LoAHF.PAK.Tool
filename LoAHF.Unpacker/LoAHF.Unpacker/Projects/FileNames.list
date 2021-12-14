@@ -16767,6 +16767,7 @@ i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_monengfuli.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_moqi.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_mysl.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_qingyuan.tga
+i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_sdj.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shangcheng.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shangguyiwu.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shenbing.tga
@@ -16783,6 +16784,7 @@ i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shenzhuangshouji.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shilianfuben.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_shoulindating.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_sss.tga
+i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_tiankongkuanghuan.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_tianshi.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_tiexuerouqing.tga
 i18n/en-us/ui/texture/font/main_icon/center_font/f_enter_tongxingzheng.tga
@@ -27789,6 +27791,7 @@ ui/icon/fenshen/c_fsqr_ls.tga
 ui/icon/fenshen/c_fsqr_ly.tga
 ui/icon/fenshen/icon_fs_diaozhui_flame.tga
 ui/icon/fenshen/icon_fs_diaozhui_h.tga
+ui/icon/fenshen/icon_fs_diaozhui_ice.tga
 ui/icon/fenshen/icon_fs_gong_zhuwuqi_flame.tga
 ui/icon/fenshen/icon_fs_hushou_flame.tga
 ui/icon/fenshen/icon_fs_hushou_h.tga
@@ -29634,6 +29637,7 @@ ui/texture/font/main_icon/center_font/f_enter_zuji.tga
 ui/texture/font/main_icon/center_font/f_enter_zuoqi.tga
 ui/texture/font/main_icon/center_font/f_jiaoyi.tga
 ui/texture/font/main_icon/center_font/f_tzjh.tga
+ui/texture/font/main_icon/center_icon/c_ente_chunjiewuyou.tga
 ui/texture/font/main_icon/center_icon/c_enter_ yaoguntianwang.tga
 ui/texture/font/main_icon/center_icon/c_enter_beibao.tga
 ui/texture/font/main_icon/center_icon/c_enter_bossdating.tga
@@ -29705,6 +29709,7 @@ ui/texture/font/main_icon/center_icon/c_enter_qingyuan.tga
 ui/texture/font/main_icon/center_icon/c_enter_qiushoudongcang.tga
 ui/texture/font/main_icon/center_icon/c_enter_qizhuan.tga
 ui/texture/font/main_icon/center_icon/c_enter_qqdawanka.tga
+ui/texture/font/main_icon/center_icon/c_enter_sdj.tga
 ui/texture/font/main_icon/center_icon/c_enter_shangchang.tga
 ui/texture/font/main_icon/center_icon/c_enter_shangguyiwu.tga
 ui/texture/font/main_icon/center_icon/c_enter_shenbing.tga
