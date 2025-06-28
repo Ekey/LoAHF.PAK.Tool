@@ -15337,6 +15337,7 @@ data/tani/test_new.tani
 default.idleupdate.pcfg
 engine_settings.xml
 game.dll
+d3dcompiler_47.dll
 global.jstr
 i18n/en-us/binary_table_files_align8_32bit.tab
 i18n/en-us/scripts/client_script_list.txt

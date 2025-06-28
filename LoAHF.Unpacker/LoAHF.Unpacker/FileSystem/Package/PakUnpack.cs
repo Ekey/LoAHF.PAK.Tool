@@ -7,7 +7,21 @@ namespace LoAHF.Unpacker
 {
     class PakUnpack
     {
-        static List<PakEntry> m_EntryTable = new List<PakEntry>();
+        private static List<PakEntry> m_EntryTable = new List<PakEntry>();
+
+        private static Byte[] iGetLibraryData(Byte[] lpBuffer)
+        {
+            Int32 dwOffset = 0;
+            Int32 bLength = lpBuffer[0];
+
+            dwOffset += 1 + bLength + 16;
+
+            Byte[] lpTemp = new Byte[lpBuffer.Length - dwOffset];
+
+            Array.Copy(lpBuffer, dwOffset, lpTemp, 0, lpBuffer.Length - dwOffset);
+
+            return lpTemp;
+        }
 
         public static void iDoIt(String m_Archive, String m_DstFolder)
         {
@@ -43,7 +57,7 @@ namespace LoAHF.Unpacker
                     if (TPakStream.Position >= m_Header.dwArchiveSize) {
                         break;
                     }
-					
+
                     var lpBlock = TPakStream.ReadBytes(8);
                     var m_BlockHeader = new PakBlockHeader();
 
@@ -104,11 +118,17 @@ namespace LoAHF.Unpacker
 
                         if (m_Entry.wCompressionType == PakFlags.NONE)
                         {
+                            //game.dll, D3DCompiler_47.dll
+                            if (m_Entry.dwNameHash == 0x8D6D71A8587761CD || m_Entry.dwNameHash == 0xA7D7D024316132AE)
+                            {
+                                lpBuffer = iGetLibraryData(lpBuffer);
+                            }
+
                             File.WriteAllBytes(m_FullPath, lpBuffer);
                         }
                         else if(m_Entry.wCompressionType == PakFlags.LZO)
                         {
-                            //TODO....
+                            //TODO.... (unused at this time)
                             File.WriteAllBytes(m_FullPath, lpBuffer);
                         }
                         else if (m_Entry.wCompressionType == PakFlags.LZMA)
@@ -118,16 +138,14 @@ namespace LoAHF.Unpacker
                         }
                         else if (m_Entry.wCompressionType == PakFlags.SNAPPY)
                         {
-                            if (m_FileName != "game.dll" && !m_FileName.Contains("8D6D71A8587761CD"))
+                            //game.dll, D3DCompiler_47.dll
+                            if (m_Entry.dwNameHash == 0x8D6D71A8587761CD || m_Entry.dwNameHash == 0xA7D7D024316132AE)
                             {
-                                var lpDstBuffer = SNAPPY.iDecompress(lpBuffer, m_Entry.dwCompressedSize);
-                                File.WriteAllBytes(m_FullPath, lpDstBuffer);
+                                lpBuffer = iGetLibraryData(lpBuffer);
                             }
-                            else
-                            {
-                                var lpDstBuffer = SNAPPY.iDecompressByOffset(lpBuffer, 32, m_Entry.dwCompressedSize - 32);
-                                File.WriteAllBytes(m_FullPath, lpDstBuffer);
-                            }
+
+                            var lpDstBuffer = SNAPPY.iDecompress(lpBuffer, m_Entry.dwCompressedSize);
+                            File.WriteAllBytes(m_FullPath, lpDstBuffer);
                         }
                         else
                         {
@@ -136,7 +154,7 @@ namespace LoAHF.Unpacker
                     }
                     else
                     {
-                        Utils.iSetInfo("[SKIPPED]: File " + m_FileName + " was removed from archive");
+                        Utils.iSetWarning("[SKIPPED]: File " + m_FileName + " was removed from archive");
                     }
                 }
             }
