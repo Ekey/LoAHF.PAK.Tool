@@ -144,7 +144,7 @@ namespace LoAHF.Unpacker
                                 lpBuffer = iGetLibraryData(lpBuffer);
                             }
 
-                            var lpDstBuffer = SNAPPY.iDecompress(lpBuffer, m_Entry.dwCompressedSize);
+                            var lpDstBuffer = SNAPPY.iDecompress(lpBuffer, lpBuffer.Length);
                             File.WriteAllBytes(m_FullPath, lpDstBuffer);
                         }
                         else
